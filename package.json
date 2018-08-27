@@ -1,0 +1,15 @@
+{
+  "name": "fyrirlestrar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "present": "reveal-md -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "^2.0.7"
+  }
+}

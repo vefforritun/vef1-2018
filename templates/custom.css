@@ -1,0 +1,63 @@
+.reveal section { text-align: left; }
+.reveal section p { line-height: 1.5em; }
+.reveal section ul { margin-bottom: 1em; }
+.reveal section li { margin-bottom: 0.75em; }
+.reveal section li ul { margin-top: 0.85em; }
+.reveal section h2,
+.reveal section h3,
+.reveal section h4 { margin-bottom: 0.5em; }
+.reveal section img { background: none; border: none; box-shadow: none; display: block; margin: 0 auto; max-height: 75%; }
+.reveal .center { text-align: center; }
+.reveal .half { width: 50%; padding: 5px; box-sizing: border-box; }
+.reveal .left { float: left; }
+.reveal .right { float: right; }
+.reveal section .left-gutter { padding-left: 1em; }
+.reveal .large { font-size: 1.8em; line-height: 1.5em; }
+.reveal .clear { clear: both; }
+.reveal .opaque-white-bg { background: rgba(255, 255, 255, 0.8); padding: 0.5em; border-radius: 10px/10px; }
+
+.reveal.pause { background: #aaa; }
+
+.reveal hr { clear: both; }
+
+.reveal dt { margin-top: 1em; }
+.reveal dt:first-of-type { margin-top: 0; }
+.reveal dd { margin-left: 2em; }
+
+.reveal dl.flat dt { margin: 0 0 0.5em 0; float: left; clear: both; width: 25%; }
+.reveal dl.flat dd { float: left; }
+
+.reveal blockquote { border: 0; padding: 1em; line-height: 1.2em; box-shadow: none; background: transparent; }
+.reveal blockquote cite { float: right; font-style: normal; margin-top: 1em; }
+
+.reveal abbr { border-bottom: 2px dotted #999; }
+
+.reveal .wall-of-text { font-size: 0.55em; }
+
+.reveal pre { width: 100%; margin: 0; line-height: 1.2em; font-size: 0.9em; height: auto; }
+.reveal pre code { max-height: none; }
+
+.reveal img.fill { width: 100%; }
+.reveal li img { max-height: 100%; margin: 0; display: inline; }
+
+.reveal ul.image-list { list-style: none; margin: 0; }
+.reveal ul.image-list li { height: 100px; margin-left: 0; }
+.reveal ul.image-list li img { float: left; }
+.reveal ul.image-list li span { display: inline-block; padding: 30px 0 0 25px; }
+
+.reveal ul.tight li { margin-top: 0; margin-bottom: 0; }
+
+.reveal .see-more { font-size: 0.7em; margin-top: 0.5em; }
+
+.reveal .side-image ul, .reveal .side-image dl { float: left; width: 60%; }
+.reveal .side-image ul ul { width: 100%; }
+.reveal .side-image li { clear: left; }
+.reveal .side-image .image { float: right; width: 35%; }
+.reveal .side-image .image img { border: 1px solid #666; padding: 1%; }
+.reveal .side-image .image.small img { border: none; padding: 1%; padding-top: 50%; }
+
+.reveal .boxes div { float: left; margin-right: 2em; }
+.reveal .boxes div:last-child { margin-right: 0; }
+.reveal .boxes h2, .reveal .boxes h3, .reveal .boxes h4 { margin: 0; padding: 0; }
+
+.reveal iframe { width: 100%; }
