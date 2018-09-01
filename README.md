@@ -52,7 +52,7 @@ Sjá Uglu.
 
 ## Útbúa fyrirlestra
 
-Allir fyrirlestrar eru skrifaðir í Markdown. Til að útbúa fyrirlestra er [revel.js]() notað með pakkanum [reveal-md](). Til þess að keyra fyrirlestra þarf að keyra í rót verkefnis:
+Allir fyrirlestrar eru skrifaðir í Markdown. Til að útbúa fyrirlestra er [revel.js](https://revealjs.com/) notað með pakkanum [reveal-md](https://github.com/webpro/reveal-md). Til þess að keyra fyrirlestra þarf að keyra í rót verkefnis:
 
 ```bash
 npm install
