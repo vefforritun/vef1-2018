@@ -25,7 +25,7 @@ Sjá Uglu.
 |  11  | 5. nóvember   | Hlutir, prótótýpur, HTML5 og JavaScript             | JS #3, hópverkefni 2 | JS #2         |
 |  12  | 12. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða           | JS #4                | JS #3         |
 |  13  | 19. nóvember  | Buffer                                              |                      | JS #4         |
-|  14  | 26. nóvember  | Samantekt og upprifjun                              |                      | Hópverkefni 2 |
+|  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf     |                      | Hópverkefni 2 |
 
 ## Lesefni
 
