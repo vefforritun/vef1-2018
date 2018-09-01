@@ -1,1 +1,1 @@
-# Fyrirlestur 1, 27. ágúst 2017
+# Fyrirlestur 2, 3. september 2017
