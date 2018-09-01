@@ -6,4 +6,6 @@
 
 [Fyrirlestur 1.3: HTML #1](01.3.html.md), [vídeó](https://youtu.be/EZQjD_EiP5k)
 
+## Dæmi
+
 * [Minnsta HTML skjalið](daemi/minnsta.html)
