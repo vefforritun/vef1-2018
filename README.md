@@ -47,6 +47,7 @@ Sjá Uglu.
 
 * [Verkefni 1](https://github.com/vefforritun/vef1-2018-v1), sett fyrir 27. ágúst, skilist 7. september
 * [Verkefni 2](https://github.com/vefforritun/vef1-2018-v2), sett fyrir 3. september, skilist 11. september
+  - [Kynning í fyrirlestri](https://youtu.be/c8YD7QWsjIY)
 
 ---
 

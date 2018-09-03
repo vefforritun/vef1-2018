@@ -1,6 +1,6 @@
 # Fyrirlestur 2, 3. september 2017
 
-[Fyrirlestur 2.1: HTML #2](02.1.html.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 2.1: HTML #2](02.1.html.md), [vídeó](https://youtu.be/QdH7hL9sMpE)
 
 ## Dæmi
 
@@ -10,7 +10,7 @@
 * [Slóðir](daemi/paths.html)
 * [Tafla](daemi/table.html)
 
-[Fyrirlestur 2.2: HTML #3](02.2.html.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 2.2: HTML #3](02.2.html.md), [vídeó](https://youtu.be/lrPqqyeYM4k)
 
 ## Dæmi
 
@@ -22,7 +22,7 @@
 * [Ógilt HTML](daemi/invalid.html)
 * [Annað](daemi/other.html)
 
-[Fyrirlestur 2.3: Aðgengi og SEO](02.3.a11y-seo.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 2.3: Aðgengi og SEO](02.3.a11y-seo.md), [vídeó](https://youtu.be/jyxKJiKHdc0)
 
 ## Dæmi
 
