@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Accessibility</title>
+  </head>
+
+  <body>
+    <p>Hello, world</p>
+
+    <!-- mynd án alt text -->
+    <img src="media/butterfly.jpg">
+
+    <!-- mynd með tóman alt text -->
+    <img src="media/butterfly.jpg" alt="">
+
+    <p>Follow instructions, see image</p>
+
+    <!-- alt texti á mynd en mjög lélegur í samhengi -->
+    <img src="media/butterfly.jpg" alt="Instructions">
+
+    <p>Follow instructions, see image</p>
+
+    <!-- betri alt texti -->
+    <img src="media/butterfly.jpg" alt="Start by removing bar, then removing foo">
+
+    <div>
+      <p>Funny video</p>
+      <video>
+        <source autoplay muted src="media/big_buck_bunny.mp4">
+      </video>
+    </div>
+
+    <!-- video er ekki mikilvægt svo við getum falið -->
+    <div aria-hidden="true">
+      <p>Funny video</p>
+      <video>
+        <source autoplay muted src="media/big_buck_bunny.mp4">
+      </video>
+    </div>
+
+    <fieldset>
+      <legend>Info</legend>
+      <div>
+        Name:
+        <input name="x" type="text">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="foo@example.org"
+          required
+          aria-describedby="email-text"
+        >
+        <em id="email-text">Email must include "@"</em>
+      </div>
+      <div>
+        <!--
+          hér notum við <button> en ef við værum með virkni í öðru elementi
+          getum við notað aria-role
+        -->
+        <button>Submit</button>
+        <span
+          role="button"
+          tabindex="0"
+          aria-pressed="false"
+          onclick="handleBtnClick(event)"
+          onKeyPress="handleBtnKeyPress(event)"
+        >
+          Span button
+        </span>
+      </div>
+    </fieldset>
+  </body>
+</html>

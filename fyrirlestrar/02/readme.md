@@ -23,3 +23,7 @@
 * [Annað](daemi/other.html)
 
 [Fyrirlestur 2.3: Aðgengi og SEO](02.3.a11y-seo.md), [vídeó](https://youtu.be/)
+
+## Dæmi
+
+* [Aðgengi](daemi/a11y.html)
