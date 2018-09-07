@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Selectors</title>
+    <style>
+    html { font-size: 20px; }
+    /* grunn stærð fyrir em er 20px */
+
+    div { border: 1px solid #000; }
+    /* svartur 1px breiður border */
+
+    em { color: #f00; }
+    /* látum öll em vera með rauðan texta */
+
+    div > em { color: #00f; }
+    /* en ef þau eru beint undir div er það blátt */
+
+    div + div { margin-top: 1em; background-color: pink; }
+    /* div sem er systkini div fær 20px margin fyrir ofan sig */
+
+    div.text:first-letter { font-size: 2em; }
+    /* fyrsti stafur undir div.text verður 10px*2=20px */
+
+    [foo] { color: yellow; }
+
+    [foo]::after { content: ' foo!'; }
+
+    span:hover { background-color: #0f0; }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <p>Halló <strong id="text">heimur</strong></p>
+    </div>
+
+    <div class="text">
+      <em>Lorem</em> <span foo="bar">ipsum <em>dolor</em> sit amet</span>, consectetur adipiscing elit.
+    </div>
+
+    <div class="text">
+      <em>Lorem</em> <span foo>ipsum <em>dolor</em> sit amet</span>, consectetur adipiscing elit.
+    </div>
+  </body>
+</html>

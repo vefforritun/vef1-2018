@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Box model</title>
+    <style>
+    /* box model */
+    .outer-box {
+      background: #669;
+
+      border: 1px solid blue;
+      padding: 10px;
+
+      width: 200px;
+    }
+
+    /* viljum box sem fyllir upp í foreldri sitt en hefur samt pláss */
+    .outer-box .inner-box {
+      background: #fff;
+      width: 100%; /* = 200px þar sem parent er 200px */
+      height: 100px;
+      padding: 20px 30px;
+      border: 2px solid #000;
+
+      /* heildarstærð á boxi er þá:
+          width: 200px + 2*30px + 2*2px = 264px
+          height: 100px + 2*20px + 2*2px = 144px
+      */
+    }
+
+    .border-box {
+      margin-top: 100px;
+    }
+
+    /*
+    ef við skilgreinum sem border-box er efnið aðlagað
+    þ.a. padding og border eru með í útreikingi á víddum
+    */
+    .border-box * {
+      box-sizing: border-box;
+    }
+
+    /*
+    Með border-box getum við auðveldlega búið til box sem geta
+    komist fyrir og fyllt upp í foreldri sitt
+    */
+    .fluid-box > .outer-box {
+      width: 100%;
+      min-width: 200px;
+      max-width: 500px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="outer-box">
+      <div class="inner-box">
+        Efni í boxi
+      </div>
+    </div>
+
+    <div class="border-box">
+      <div class="outer-box">
+        <div class="inner-box">
+          Efni í boxi
+        </div>
+      </div>
+    </div>
+
+    <div class="fluid-box border-box">
+      <div class="outer-box">
+        <div class="inner-box">
+          Efni í boxi
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

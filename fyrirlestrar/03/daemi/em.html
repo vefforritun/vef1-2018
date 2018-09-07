@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>em</title>
+    <style>
+    html { font-size: 24px; }
+
+    .foo { font-size: 12px; }
+    /* texti innan .foo er nákvæmlega 12px */
+
+    .foo p { font-size: 2em; }
+    /* texti í p undir .foo er 12px * 2 = 24px */
+
+    .foo p em { font-size: 10px; }
+    /* texti í em undir p undir .foo er nákvæmlega 10px */
+
+    .foo p strong { font-size: 1.5em; }
+    /*
+      texti í strong undir p undir .foo er:
+      12px * 2 * 1.5 = 36px
+    */
+    </style>
+  </head>
+
+  <body>
+    <div class="foo">
+      foo
+      <p>foo <em>bar</em> <strong>baz</strong></p>
+    </div>
+  </body>
+</html>

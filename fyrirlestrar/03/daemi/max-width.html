@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Box model</title>
+    <style>
+    .box {
+      box-sizing: border-box;
+
+      width: 100%;     /* fyllir upp í foreldri */
+      max-width: 40em; /* aldrei breiðari en um 40em, ca þ.a. við höfum 50-60 stafi í línu */
+      min-width: 20em; /* og aldrei minni en um 20em */
+
+      padding: 1em;
+      border: 1px solid #000;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl. Quisque lacus nibh, sodales in felis aliquet, iaculis pellentesque sem. Maecenas elit orci, dictum at congue non, elementum sit amet magna. Aliquam erat volutpat. Aenean magna erat, faucibus eu hendrerit sed, pharetra sed mauris. Fusce et dui urna. Vivamus sollicitudin mollis rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus hendrerit volutpat erat a maximus. Sed pharetra dapibus sapien ac bibendum.
+    </div>
+  </body>
+</html>

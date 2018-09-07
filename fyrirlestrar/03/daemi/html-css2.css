@@ -1,0 +1,11 @@
+body {
+  background-color: pink;
+}
+
+p {
+  font-size: 2em;
+}
+
+span {
+  text-decoration: italic;
+}
