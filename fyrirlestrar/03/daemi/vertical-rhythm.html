@@ -1,0 +1,118 @@
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Vertical rhythm</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-size: 20px;
+    }
+
+    main {
+      margin: 0 auto;
+      padding: 0 10px;
+      max-width: 72rem;
+      font-size: 20px;
+    }
+
+    h1 {
+      margin: 0.5em 0;
+      font-size: 3rem;
+      line-height: 1;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      line-height: 1.3333333;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      font-size: 1rem;
+      line-height: 2;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Fyrirsögn sem situr á baseline</h1>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Proin a dictum metus, non aliquam justo.
+        Vivamus nulla nisl, ultrices eu odio non, consequat faucibus justo.
+        Phasellus magna dui, faucibus sit amet massa ullamcorper, pellentesque
+        bibendum lorem. Ut tincidunt lobortis sollicitudin.
+      </p>
+
+      <h2>Millifyrirsögn á baseline</h2>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Proin a dictum metus, non aliquam justo.
+        Vivamus nulla nisl, ultrices eu odio non, consequat faucibus justo.
+        Phasellus magna dui, faucibus sit amet massa ullamcorper, pellentesque
+        bibendum lorem. Ut tincidunt lobortis sollicitudin.
+      </p>
+    </main>
+  </body>
+  <style>
+    /* Settings */
+    :root {
+      --offset: 0;
+      --max_width: 100%;
+      --columns: 6;
+      --gutter: 1rem;
+      --baseline: 2rem;
+      --baseline-offset: 0;
+      --color: hsla(204, 80%, 72%, 0.25);
+    }
+
+    /* Helper variables */
+    :root {
+      --repeating-width: calc(100% / var(--columns));
+      --column-width: calc((100% / var(--columns)) - var(--gutter));
+      --background-width: calc(100% + var(--gutter));
+      --background-columns: repeating-linear-gradient(
+        to right,
+        transparent,
+        transparent var(--column-width),
+        transparent var(--column-width),
+        transparent var(--repeating-width)
+      );
+      --background-baseline: repeating-linear-gradient(
+        to bottom,
+        var(--color),
+        var(--color) 1px,
+        transparent 1px,
+        transparent var(--baseline)
+      );
+    }
+
+    /* Styling */
+    html {
+      position: relative;
+    }
+
+    html::before {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      margin-right: auto;
+      margin-left: auto;
+      width: calc(100% - (2 * var(--offset)));
+      max-width: var(--max_width);
+      min-height: 100vh;
+      content: '';
+      background-image: var(--background-columns), var(--background-baseline);
+      background-size: var(--background-width) 100%;
+      background-position: 0 var(--baseline-offset);
+      z-index: 1000;
+      pointer-events: none;
+    }
+  </style>
+</html>
