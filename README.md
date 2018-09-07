@@ -35,6 +35,9 @@ Sjá Uglu.
 * Vika #2
   - [Kafli 1: HTML](https://github.com/vefforritun/book/blob/master/chapters/01.html.md), að enda
   - [Resilient Web Design, chapter 1: Foundations](https://resilientwebdesign.com/chapter1/)
+* Vika #3
+  - [Kafli 2: CSS](https://github.com/vefforritun/book/blob/master/chapters/02.css.md), til og með [2.12.1 Normal flow – eðlilegt flæði](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#2121-normal-flow--e%C3%B0lilegt-fl%C3%A6%C3%B0i)
+  - [Resilient Web Design, chapter 2: Materials](https://resilientwebdesign.com/chapter2/)
 
 ## Fyrirlestrar
 
@@ -42,12 +45,15 @@ Sjá Uglu.
   - Kynning, inngangur, HTML #1
 * [Fyrirlestur 2, 3. september 2017](fyrirlestrar/02/)
   - Element, merkingarfræði, aðgengi og SEO
+* [Fyrirlestur 3, 10. september 2017](fyrirlestrar/03/)
+  - CSS, syntax, specificity og cascade, box model
 
 ## Verkefni
 
 * [Verkefni 1](https://github.com/vefforritun/vef1-2018-v1), sett fyrir 27. ágúst, skilist 7. september
 * [Verkefni 2](https://github.com/vefforritun/vef1-2018-v2), sett fyrir 3. september, skilist 11. september
   - [Kynning í fyrirlestri](https://youtu.be/c8YD7QWsjIY)
+* [Verkefni 3](https://github.com/vefforritun/vef1-2018-v3), sett fyrir 10. september, skilist 18. september
 
 ---
 
