@@ -10,24 +10,24 @@ Sjá Uglu.
 
 ## Kennsluáætlun
 
-| Vika | Mánudagur     | Viðfangsefni                                        | Verkefni             | Skil          |
-|------|---------------|-----------------------------------------------------|----------------------|---------------|
-|  1   | 27. ágúst     | Kynning, vefurinn og vefforritun, HTML              | HTML #1              |               |
-|  2   | 3. september  | Element, merkingarfræði, aðgengi og SEO             | HTML #2              | HTML #1       |
-|  3   | 10. september | CSS, syntax, specificity og cascade, box model      | CSS #1               | HTML #2       |
-|  4   | 17. september | CSS, visual formatting, letur og texti, variables   | CSS #2               | CSS #1        |
-|  5   | 24. september | Flexbox, Git, GitHub                                | CSS #3               | CSS #2        |
-|  6   | 1. október    | Skalanlegir vefir, CSS í stærri verkefnum, CSS grid | CSS #4               | CSS #3        |
-|  7   | 8. október    | Kvikun, hönnun, Sass, NPM, pakkar                   | Hópverkefni 1        | CSS #4        |
-|  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir        |                      |               |
-|  9   | 22. október   | Forritun á vef, DOM og atburðir, einingar, eslint   | JS #1                | Hópverkefni 1 |
-|  10  | 29. október   | Villumeðhöndlun, reglulegar segðir, HTTP, Ajax      | JS #2                | JS #1         |
-|  11  | 5. nóvember   | Hlutir, prótótýpur, HTML5 og JavaScript             | JS #3, hópverkefni 2 | JS #2         |
-|  12  | 12. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða           | JS #4                | JS #3         |
-|  13  | 19. nóvember  | Buffer                                              |                      | JS #4         |
-|  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf     |                      | Hópverkefni 2 |
+| Vika | Mánudagur     | Viðfangsefni                                               | Verkefni             | Skil          |
+|------|---------------|------------------------------------------------------------|----------------------|---------------|
+|  1   | 27. ágúst     | Kynning, vefurinn og vefforritun, HTML                     | HTML #1              |               |
+|  2   | 3. september  | Element, merkingarfræði, aðgengi og SEO                    | HTML #2              | HTML #1       |
+|  3   | 10. september | CSS, syntax, specificity og cascade, box model             | CSS #1               | HTML #2       |
+|  4   | 17. september | Visual formatting, letur&texti, litir&bakgrunnar variables | CSS #2               | CSS #1        |
+|  5   | 24. september | Flexbox, Git, GitHub                                       | CSS #3               | CSS #2        |
+|  6   | 1. október    | Skalanlegir vefir, CSS í stærri verkefnum, CSS grid        | CSS #4               | CSS #3        |
+|  7   | 8. október    | Kvikun, hönnun, Sass, NPM, pakkar                          | Hópverkefni 1        | CSS #4        |
+|  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir               |                      |               |
+|  9   | 22. október   | Forritun á vef, DOM og atburðir, einingar, eslint          | JS #1                | Hópverkefni 1 |
+|  10  | 29. október   | Villumeðhöndlun, reglulegar segðir, HTTP, Ajax             | JS #2                | JS #1         |
+|  11  | 5. nóvember   | Hlutir, prótótýpur, HTML5 og JavaScript                    | JS #3, hópverkefni 2 | JS #2         |
+|  12  | 12. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða                  | JS #4                | JS #3         |
+|  13  | 19. nóvember  | Buffer                                                     |                      | JS #4         |
+|  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf            |                      | Hópverkefni 2 |
 
-## Lesefni
+#             # Lesefni
 
 * Vika #1
   - [Kafli 0: Inngangur](https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md)
@@ -43,9 +43,9 @@ Sjá Uglu.
 
 * [Fyrirlestur 1, 27. ágúst 2018](fyrirlestrar/01/)
   - Kynning, inngangur, HTML #1
-* [Fyrirlestur 2, 3. september 2017](fyrirlestrar/02/)
+* [Fyrirlestur 2, 3. september 2018](fyrirlestrar/02/)
   - Element, merkingarfræði, aðgengi og SEO
-* [Fyrirlestur 3, 10. september 2017](fyrirlestrar/03/)
+* [Fyrirlestur 3, 10. september 2018](fyrirlestrar/03/)
   - CSS, syntax, specificity og cascade, box model
 
 ## Verkefni
@@ -54,6 +54,7 @@ Sjá Uglu.
 * [Verkefni 2](https://github.com/vefforritun/vef1-2018-v2), sett fyrir 3. september, skilist 11. september
   - [Kynning í fyrirlestri](https://youtu.be/c8YD7QWsjIY)
 * [Verkefni 3](https://github.com/vefforritun/vef1-2018-v3), sett fyrir 10. september, skilist 18. september
+  - [Kynning í fyrirlestri](https://youtu.be/BiyHBlDkPCo)
 
 ---
 

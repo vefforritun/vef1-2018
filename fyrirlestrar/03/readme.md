@@ -1,10 +1,10 @@
 # Fyrirlestur 3, 10. september 2017
 
-[Fyrirlestur 3.1: CSS #1](03.1.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 3.1: CSS #1](03.1.css.md), [vídeó](https://youtu.be/rBFdRVWhiis)
 
-[Fyrirlestur 3.2: CSS #2](03.2.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 3.2: CSS #2](03.2.css.md), [vídeó](https://youtu.be/oAghhzsOr2g)
 
-[Fyrirlestur 3.3: CSS #3](03.3.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 3.3: CSS #3](03.3.css.md), [vídeó](https://youtu.be/cg__fxt8Cfw)
 
 ## Dæmi
 
