@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <title>Box model</title>
     <style>
-    /* box model */
+    html, body {
+      font-size: 15px;
+    }
+
     .outer-box {
       background: #669;
 
@@ -49,20 +52,40 @@
       min-width: 200px;
       max-width: 500px;
     }
+
+    /*
+    .max-box stýrir breidd á heildinni, í þessu tilfelli max 800px
+    .outer-box fyllir alltaf útí allt plássið sem það fær
+    */
+    .max-box {
+      max-width: 800px;
+    }
+
+    .max-box > .outer-box {
+      width: 100%;
+    }
+
+    /*
+    .relative-box er hlutfallslega 25 föld stærð á grunnletri (25rem)
+    Í okkar tilfelli er það 15 (grunnletur stærð) * 25 = 375px
+    */
+    .relative-box > .outer-box {
+      width: 25rem;
+    }
     </style>
   </head>
 
   <body>
     <div class="outer-box">
       <div class="inner-box">
-        Efni í boxi
+        Efni í boxi sem flæðir yfir
       </div>
     </div>
 
     <div class="border-box">
       <div class="outer-box">
         <div class="inner-box">
-          Efni í boxi
+          Efni í boxi sem passar
         </div>
       </div>
     </div>
@@ -70,7 +93,23 @@
     <div class="fluid-box border-box">
       <div class="outer-box">
         <div class="inner-box">
-          Efni í boxi
+          Efni í boxi sem flæðir innan ytra box
+        </div>
+      </div>
+    </div>
+
+    <div class="max-box border-box">
+      <div class="outer-box">
+        <div class="inner-box">
+          Efni í boxi sem er aldrei breiðara en 800px
+        </div>
+      </div>
+    </div>
+
+    <div class="relative-box border-box">
+      <div class="outer-box">
+        <div class="inner-box">
+          Efni í boxi sem er hlutfallslega breitt
         </div>
       </div>
     </div>

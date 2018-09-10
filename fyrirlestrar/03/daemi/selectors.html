@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <title>Selectors</title>
     <style>
-    html { font-size: 20px; }
     /* grunn stærð fyrir em er 20px */
+    html { font-size: 20px; }
 
-    div { border: 1px solid #000; }
     /* svartur 1px breiður border */
+    div { border: 1px solid #000; }
 
-    em { color: #f00; }
     /* látum öll em vera með rauðan texta */
+    em { color: #f00; }
 
-    div > em { color: #00f; }
     /* en ef þau eru beint undir div er það blátt */
+    div > em { color: #00f; }
 
-    div + div { margin-top: 1em; background-color: pink; }
     /* div sem er systkini div fær 20px margin fyrir ofan sig */
+    div + div { margin-top: 1em; background-color: pink; }
 
-    div.text:first-letter { font-size: 2em; }
     /* fyrsti stafur undir div.text verður 10px*2=20px */
+    div.text:first-letter { font-size: 2em; }
 
     [foo] { color: yellow; }
 

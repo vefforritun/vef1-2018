@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo</title>
+    <style>
+
+    /* gervi-klasar */
+    a {
+      font-weight: bold;
+      color: blue;
+    }
+
+    a:visited {
+      color: red;
+    }
+
+    /*
+    ef við viljum að hover texti verði grænn verður að skilgreina
+    eftir visited
+    */
+    a:hover {
+      color: green;
+    }
+
+    a:active {
+      color: white;
+    }
+
+    a:focus {
+      color: gray;
+    }
+
+    /* oddatölu li eru með bleikan bakgrunn */
+    li:nth-child(2n+1) {
+      background: pink;
+    }
+
+    /* seinasta er með grænan, nema ef reglusett að ofan væri skilgreint seinna */
+    li:last-child {
+      background: green;
+    }
+
+    /* gervi-element */
+    /*
+
+
+* `::before/::after` – element sem er fyrir framan/aftan það sem skilgreint er
+* `::first-letter` – fyrsti stafur elements
+* `::first-line` – fyrsta lína elements
+
+    */
+
+    div::before {
+      content: 'Halló heimur!';
+    }
+
+    div::after {
+      content: '';
+      display: block;
+      border-bottom: 10px solid green;
+    }
+
+    div::first-line {
+      background: lightblue;
+    }
+
+    div::first-letter {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <a href="https://hi.is">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit. <a href="http://foo.bar">Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl.</a> Quisque lacus nibh, sodales in felis aliquet, iaculis pellentesque sem. Maecenas elit orci, dictum at congue non, elementum sit amet magna. Aliquam erat volutpat. Aenean magna erat, faucibus eu hendrerit sed, pharetra sed mauris. Fusce et dui urna. Vivamus sollicitudin mollis rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus hendrerit volutpat erat a maximus. Sed pharetra dapibus sapien ac bibendum.
+    </div>
+    <ul>
+      <li>foo</li>
+      <li>foo</li>
+      <li>foo</li>
+      <li>foo</li>
+      <li>foo</li>
+    </ul>
+  </body>
+</html>
