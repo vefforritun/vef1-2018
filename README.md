@@ -39,7 +39,7 @@ Sjá Uglu.
   - [Kafli 2: CSS](https://github.com/vefforritun/book/blob/master/chapters/02.css.md), til og með [2.12.1 Normal flow – eðlilegt flæði](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#2121-normal-flow--e%C3%B0lilegt-fl%C3%A6%C3%B0i)
   - [Resilient Web Design, chapter 2: Materials](https://resilientwebdesign.com/chapter2/)
 * Vika #4
-  - [Kafli 2: CSS]() frá og með [2.12 Visual formatting model](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#212-visual-formatting-model) til og með [2.21 – Annað](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#220-anna%C3%B0)
+  - [Kafli 2: CSS]() frá og með [2.12 Visual formatting model](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#212-visual-formatting-model) til og með [2.21 – Annað](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#221-anna%C3%B0)
 * Vika #5
   - [Kafli 2.22: Flexbox](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#222-flexbox)
   - [Pro Git: Kafli 1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
