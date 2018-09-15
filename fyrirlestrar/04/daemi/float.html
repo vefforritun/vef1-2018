@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Float</title>
+    <style>
+    .box {
+      float: left;
+      width: 90px;
+      height: 90px;
+      padding: 10px;
+      background: #eee;
+      border: 1px solid #000;
+    }
+
+    .box.right { float: right; }
+
+    .box.img {
+      margin: 0 10px 10px 0;
+    }
+
+    .box.right.img {
+      margin: 0 0 10px 10px;
+      height: 200px;
+    }
+
+    /*
+    þetta box fær enga hæð (border collapse'ar)
+    nema því sé fleytt eða eitthvað hreinsar float frá div.one
+    */
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto 50px auto;
+    }
+
+    .clearfix::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    </style>
+  </head>
+
+  <body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <div class="box">Box #1</div>
+    <div class="box right">Box #2</div>
+
+    <p>Vivamus a semper purus, ac imperdiet nibh.</p>
+
+    <section class="clearfix container">
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+      <div class="box">box</div>
+    </section>
+
+    <div class="container">
+      <div class="box img">mynd</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl. Quisque lacus nibh, sodales in felis aliquet, iaculis pellentesque sem. Maecenas elit orci, dictum at congue non, elementum sit amet magna. Aliquam erat volutpat. Aenean magna erat, faucibus eu hendrerit sed, pharetra sed mauris. Fusce et dui urna. Vivamus sollicitudin mollis rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus hendrerit volutpat erat a maximus. Sed pharetra dapibus sapien ac bibendum. Proin non tincidunt nisl. Quisque lacus nibh, sodales in felis aliquet, iaculis pellentesque sem. Maecenas elit orci, dictum at congue non, elementum sit amet magna. Aliquam erat volutpat. Aenean magna erat, faucibus eu hendrerit sed, pharetra sed mauris. Fusce et dui urna. Vivamus sollicitudin mollis rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus hendrerit volutpat erat a maximus. Sed pharetra dapibus sapien ac bibendum.</p>
+      <div class="box right img">mynd</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl. Quisque lacus nibh, sodales in felis aliquet, iaculis pellentesque sem. Maecenas elit orci, dictum at congue non, elementum sit amet magna. Aliquam erat volutpat. Aenean magna erat, faucibus eu hendrerit sed, pharetra sed mauris. Fusce et dui urna. Vivamus sollicitudin mollis rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus hendrerit volutpat erat a maximus. Sed pharetra dapibus sapien ac bibendum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl. Quisque lacus nibh, sodales in felis aliquet, iaculis pellentesque sem. Maecenas elit orci, dictum at congue non, elementum sit amet magna. Aliquam erat volutpat. Aenean magna erat, faucibus eu hendrerit sed, pharetra sed mauris. Fusce et dui urna. Vivamus sollicitudin mollis rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus hendrerit volutpat erat a maximus. Sed pharetra dapibus sapien ac bibendum.</p>
+    </div>
+  </body>
+</html>

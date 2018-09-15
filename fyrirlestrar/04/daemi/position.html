@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Position</title>
+    <style>
+    main {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    section {
+      margin-bottom: 100px;
+    }
+
+    .box {
+      margin-bottom: 10px;
+      padding: 20px;
+      height: 50px;
+
+
+      font-size: 24px;
+      background-color: #999;
+      color: #fff;
+    }
+
+    .relative .box:nth-child(2) {
+      position: relative;
+      top: 150px;
+      left: 50px;
+
+      background-color: #9f9;
+    }
+
+    .relative .box:nth-child(4) {
+      position: relative;
+      top: -200px;
+      left: -50px;
+
+      background-color: #9f9;
+    }
+
+    /***/
+
+    .absolute {
+      /* gerum foreldri að containing block */
+      position: relative;
+      border: 1px solid #000;
+    }
+
+    .absolute .box:nth-child(1) {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      background-color: #9f9;
+    }
+
+    .absolute .box:nth-child(3) {
+      position: absolute;
+      bottom: 0;
+      left: 50px;
+
+      width: 100px;
+
+      background-color: #9f9;
+    }
+
+    /***/
+
+    .fixed .box:nth-child(2) {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
+
+    .fixed .box:nth-child(4) {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    /***/
+
+    .parent {
+      position: relative;
+    }
+
+    .child {
+      background-color: #f9f;
+      padding: 10px;
+    }
+
+    .fill {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    /***/
+
+    .zindex {
+      /* gerum foreldri að containing block */
+      position: relative;
+      border: 1px solid #000;
+    }
+
+    .zindex .box:nth-child(1) {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      z-index: 4;
+
+      background-color: #9f9;
+    }
+
+    .zindex .box:nth-child(2) {
+      position: relative;
+      z-index: 1;
+    }
+
+    .zindex .box:nth-child(3) {
+      position: absolute;
+      bottom: 50px;
+      left: 50px;
+      z-index: 1;
+
+      width: 100px;
+
+      background-color: #9f9;
+    }
+
+    .zindex .box:nth-child(4) {
+      position: relative;
+      z-index: 3;
+    }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>position</h1>
+      <section>
+        <h2>Eðlilegt flæði</h2>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+      </section>
+      <section>
+        <h2>Hlutfallsleg staðsetning</h2>
+        <div class="relative">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+        </div>
+      </section>
+      <section>
+        <h2>Nákvæm staðsetning</h2>
+        <div class="absolute">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Nákvæm staðsetning notuð til að fylla út í foreldri</h2>
+        <div>
+          <div class="box">
+            <div class="child">
+              Box 1 – barn
+            </div>
+          </div>
+          <div class="box parent">
+            <div class="child fill">
+              Box 2 – barn
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Föst staðsetning</h2>
+        <div class="fixed">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Nákvæm staðsetning og z-index</h2>
+        <div class="zindex">
+          <div class="box">1</div>
+          <div class="box">2</div>
+          <div class="box">3</div>
+          <div class="box">4</div>
+        </div>
+      </section>
+
+    </main>
+  </body>
+</html>

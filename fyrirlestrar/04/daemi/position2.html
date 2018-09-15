@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Position</title>
+    <style>
+    body {
+      min-height: 200vh;
+    }
+
+    nav {
+      width: 100%;
+      min-height: 60px;
+      padding: 20px;
+
+      background: #999;
+    }
+
+    main {
+      position: relative; /* verður bounding block */
+
+      width: 100%;
+      max-width: 800px;
+      margin: 100px auto 0 auto;
+      padding-top: 20px;
+    }
+
+    .container {
+      position: relative;
+      margin-top: 100px;
+      height: 500px;
+    }
+
+    aside {
+      width: 100px;
+      min-height: 100px;
+      padding: 20px;
+
+      background: #eee;
+    }
+
+    section {
+      margin-left: 150px;
+      margin-top: -200px;
+    }
+
+    .box {
+      display: inline-block;
+      width: 100px;
+      min-height: 100px;
+      padding: 20px;
+
+      background: #eee;
+    }
+
+    .boxes {
+      position: relative;
+    }
+
+    .box:nth-child(1) {
+      position: absolute;
+      left: 145px;
+    }
+
+    .box:nth-child(3) {
+      position: relative;
+      left: 300px;
+    }
+
+    .fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 200px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <nav class="fixed">
+      Föst valmynd
+    </nav>
+    <main>
+      <h1>position dæmi</h1>
+
+      <div class="boxes">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+      </div>
+
+      <div class="container">
+        <aside class="sticky">
+          Klístruð hliðarvalmynd
+        </aside>
+        <section>
+          <h2>Efni</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in nibh ullamcorper, placerat magna non, mollis risus. Sed bibendum, nibh sit amet sagittis semper, libero elit facilisis nisi, in viverra sem urna eleifend mauris. Donec id neque eget risus ullamcorper pulvinar id et justo. Nam efficitur consectetur erat, sed mollis justo auctor a. Phasellus vestibulum luctus mi sit amet semper. Integer ipsum dolor, pulvinar ut porttitor non, gravida et justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus interdum tincidunt leo sed dapibus. Vivamus non finibus turpis. Donec euismod est sed iaculis rutrum. Cras egestas erat nisi, vitae laoreet quam congue vitae. Duis pharetra sed felis id imperdiet. Curabitur ullamcorper nibh blandit nunc dictum mattis. Mauris eget tortor vitae nunc facilisis aliquam. In hac habitasse platea dictumst. Quisque vitae mauris dui.</p>
+
+          <p>Vivamus imperdiet lacus eget augue porttitor tincidunt. Donec eleifend nisl diam. Nulla eget justo at sapien hendrerit iaculis sit amet vitae mi. Etiam lacinia quis leo id bibendum. Proin in pellentesque augue. Ut at dolor eu erat sollicitudin mattis vel in mauris. Cras eros mi, finibus ut tristique at, volutpat eu justo. Proin viverra libero non tristique placerat.</p>
+
+          <p>Cras scelerisque id ex non viverra. Nullam commodo purus at turpis scelerisque convallis. In sit amet ex molestie, suscipit lectus et, ultrices enim. Aenean nec est sit amet magna convallis fermentum. Nunc justo neque, dignissim a tincidunt vel, dictum at velit. Proin porta vestibulum est. Cras vel tellus eros. Curabitur et diam non elit volutpat scelerisque et quis felis. Donec non nulla aliquet, posuere ligula et, euismod risus.</p>
+
+          <p>Donec sapien metus, semper suscipit risus quis, blandit pellentesque dui. Sed blandit augue eu urna aliquam suscipit. Etiam vehicula massa vitae porta aliquam. Aenean cursus, tortor sed consectetur sagittis, elit erat vestibulum est, volutpat fermentum elit neque id lectus. Nullam nisi odio, tempus ac vestibulum quis, sagittis ac dolor. Vestibulum lobortis sed turpis at pretium. Nunc pharetra ipsum sit amet tempor eleifend. Phasellus cursus porttitor tincidunt. Cras cursus nibh vitae mi scelerisque facilisis. Nulla turpis ante, pretium in scelerisque consequat, placerat non turpis. Cras eu erat sed eros porttitor elementum. Etiam varius sagittis libero id fringilla. Praesent convallis dui a nunc blandit condimentum. Aliquam laoreet odio at velit ornare eleifend at at quam. Donec condimentum aliquet mattis. Vestibulum non viverra risus.</p>
+
+          <p>Morbi sit amet nisi ut ligula cursus scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec non nunc et velit volutpat malesuada in eget risus. Morbi bibendum malesuada iaculis. Nam venenatis quam eros, id condimentum augue auctor at. Mauris dignissim neque nec turpis varius, sed consequat diam fringilla. In viverra varius quam, quis efficitur dui imperdiet id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eros eros, imperdiet vel ipsum nec, facilisis porttitor nisl. Donec odio velit, interdum vitae semper eu, commodo ac mi. Ut porttitor sapien eget nisi condimentum molestie.</p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

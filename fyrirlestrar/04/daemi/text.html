@@ -1,0 +1,141 @@
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Letur og texti</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+    <style>
+
+    html, body {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 16px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 55em; /* miðum við um 55 stafi per línu upp á lesanleika */
+
+      margin: 0 auto;
+    }
+
+    section {
+      columns: 3 14em;
+      column-gap: 2em;
+      column-rule: inset 1px rgba(0, 0, 0, 0.2);
+
+      margin-bottom: 2em;
+    }
+
+    h1 {
+      font-family: Roboto, Verdana, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    @supports (writing-mode: vertical-lr) {
+      h1 {
+        float: left;
+        writing-mode: vertical-lr;
+        text-align: left;
+      }
+    }
+
+    p {
+      line-height: 1.75;
+      margin-top: 0;
+    }
+
+    p:first-of-type::first-letter {
+      font: bold 2em/0.9375em 'Open Sans Condensed', 'Trebuchet MS', sans-serif;
+      float: left;
+      padding-right: 0.2em;
+    }
+
+    p:first-of-type::first-line {
+      font-size: 1.5em;
+      font-variant: small-caps;
+      line-height: 1em;
+    }
+
+    p + p {
+      text-indent: 2em;
+      margin-top: 1em;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    del {
+      text-decoration: line-through;
+    }
+
+    nav {
+      width: 100%;
+      max-width: 55em;
+      margin: 0 auto;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    li {
+      margin-right: 20px;
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media print {
+      nav,
+      footer {
+        display: none; /* ekki birta valmynd eða fót */
+      }
+
+      h1 {
+        float: none;
+        writing-mode: initial;
+        text-align: center;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Forsíða</a></li>
+        <li><a href="/">Greinar</a></li>
+        <li><a href="/">Um</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Lorem ipsum</h1>
+
+      <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas quis felis in dapibus. Aliquam neque dui, consequat sed urna blandit, tempor lacinia sem. Nulla arcu erat, fermentum in rhoncus in, varius at dolor. Nam facilisis urna nunc, in consequat orci dapibus non. Aliquam faucibus sodales metus ac pulvinar. Maecenas non aliquet neque. Sed suscipit efficitur urna sed posuere. Maecenas semper pulvinar volutpat. <del>Nullam id nisi semper, eleifend justo in, fringilla risus.</del> Vestibulum et risus at nunc sodales rutrum. Ut ac semper lorem, vel iaculis neque. Praesent iaculis massa nulla, quis volutpat mi maximus sed. Pellentesque sed est molestie, maximus urna id, mattis urna.</p>
+
+        <p>Aliquam velit eros, iaculis eget tellus et, porta placerat leo. Aliquam feugiat imperdiet est et ultrices. Ut pretium vel massa sit amet tristique. Aliquam pharetra libero sit amet massa pretium, vel dapibus eros varius. <strong>Duis pretium velit nec orci tristique, nec commodo felis fermentum.</strong> Maecenas elementum ex blandit velit faucibus imperdiet. Proin sed est turpis. Sed vestibulum neque ac ex ornare condimentum. Cras iaculis tellus non nunc venenatis faucibus.</p>
+
+        <p>Phasellus euismod vel erat nec dapibus. Morbi vehicula, metus sed lobortis tempor, elit augue rutrum enim, a auctor arcu risus ac lectus. Morbi hendrerit felis massa, a laoreet mi molestie sit amet. Pellentesque accumsan sem vitae ipsum fermentum, quis lobortis nunc semper. <em>Ut pretium mi ultricies dolor luctus, id egestas magna pulvinar.</em> Fusce volutpat blandit metus eu fringilla. Donec egestas magna in risus dapibus vestibulum eget ut ipsum. Sed sit amet mollis est, in pharetra dui. Fusce leo turpis, tincidunt sed augue eu, fringilla tempus magna. Nunc ut blandit orci. Aenean varius gravida tellus, vel egestas eros euismod et. Nulla facilisi. Mauris dignissim, est ut convallis ornare, ipsum nunc aliquam sem, nec fermentum magna diam ac quam. In vehicula maximus quam, id pretium magna elementum in. Aenean porttitor felis sit amet erat eleifend eleifend. Mauris nec fringilla elit.</p>
+      </section>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Overflow</title>
+    <style>
+    .box {
+      width: 100px;
+      height: 100px;
+
+      margin: 20px;
+      margin-bottom: 100px;
+      border: 1px solid #f00;
+      padding: 5px;
+    }
+
+    .box1 { overflow: visible; }
+    .box2 { overflow: hidden; }
+    .box3 { overflow: scroll; }
+    .box4 { overflow: auto; }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- fyrsta box eins og við gerðum ráð fyrir í forritun -->
+    <div class="box box1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+    <!-- Þetta box fær síðan allt í einu miklu meiri texta. Ónei! -->
+    <div class="box box1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl.</div>
+
+    <!-- overflow hidden mun fela texta og gera efnið okkar óaðgengilegt, auðveldari lausn en verri -->
+    <div class="box box2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl.</div>
+
+    <!-- overflow scroll setur inn bæði láréttar og lóðréttar skrunstikur sem er ekki alltaf það sem við viljum -->
+    <div class="box box3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl.</div>
+
+    <!-- overflow auto er oft besta lausnin -->
+    <div class="box box4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eleifend nunc non suscipit finibus. Proin non tincidunt nisl.</div>
+  </body>
+</html>

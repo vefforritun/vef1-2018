@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Gegnsæi</title>
+    <style>
+    body {
+      background-color: pink;
+    }
+
+    .box {
+      position: relative;
+      min-width: 500px;
+      min-height: 500px;
+
+      font-size: 2em;
+    }
+
+    .img {
+      background: url(test-card.png);
+      background-size: cover;
+    }
+
+    .half-opaque {
+      /* bakgrunnslitur er hálf gegnsær en allur texti mun vera ógegnsær */
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+    }
+
+    .protection {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      /* 20% gegnsæ vörn sem hægt er að setja ofan á mynd svo texti sjáist */
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .almost-all-opaque {
+      /* allt efni í elementi er næstum alveg gegnsætt */
+      opacity: 0.1;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="box half-opaque">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+    <div class="box img">
+      <div class="protection">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </div>
+
+    <div class="box almost-all-opaque">
+      <img src="test-card.png">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </body>
+</html>

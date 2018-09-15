@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Z index vandræði</title>
+    <style>
+    .box {
+      position: relative;
+      z-index: 1;
+      float: left;
+
+      width: 200px;
+      height: 200px;
+
+      margin-right: 10px;
+      border: 1px solid #000;
+      padding: 10px;
+
+      background-color: #eee;
+    }
+
+    .tooltip {
+      /* sjálfgefið ekki sýnt */
+      display: none;
+
+      position: absolute;
+      top: 0;
+      right: -100px;
+
+      /*
+      skiptir engu máli hversu hátt þetta gildi verður, það kemur boxi aldrei
+      út fyrir foreldri með z-index: 1
+      */
+      z-index: 100;
+
+      padding: 10px;
+      width: 100px;
+      height: 100px;
+
+      font-size: 14px;
+
+      background-color: white;
+      border: 1px solid #000;
+    }
+
+    .hover:hover .tooltip {
+      display: block;
+    }
+
+    .box-2 .tooltip {
+      right: initial;
+      left: -100px;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <div class="box">
+          <div class="hover">
+            Hoveraðu yfir mig!
+            <div class="tooltip">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+        </div>
+        <div class="box box-2">
+          <div class="hover">
+            Hoveraðu yfir mig!
+            <div class="tooltip">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div class="box">
+          <div class="hover">
+            Hoveraðu yfir mig!
+            <div class="tooltip">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="hover">
+            Hoveraðu yfir mig!
+            <div class="tooltip">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+        </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Box model</title>
+    <style>
+    main {
+      overflow: hidden;
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    div {
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      display: block;
+      width: 600px;
+      height: 200px;
+      border: 2px solid #000;
+    }
+
+    .fill {
+      object-fit: fill;
+    }
+
+    .cover {
+      object-fit: cover;
+    }
+
+    .contain {
+      object-fit: contain;
+    }
+
+    .none {
+      object-fit: none;
+    }
+
+    .scale-down {
+      object-fit: scale-down;
+    }
+
+    .cover-pos {
+      object-fit: cover;
+      object-position: 0 0;
+    }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div>Fill: <img src="test-card.png" class="fill"></div>
+      <div>Cover: <img src="test-card.png" class="cover"></div>
+      <div>Contain: <img src="test-card.png" class="contain"></div>
+      <div>None: <img src="test-card.png" class="none"></div>
+      <div>Scale-down: <img src="test-card.png" class="scale-down"></div>
+      <div>Cover með pos 0 0: <img src="test-card.png" class="cover-pos"></div>
+    </main>
+  </body>
+</html>

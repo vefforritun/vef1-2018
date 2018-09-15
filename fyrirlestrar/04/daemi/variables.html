@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS breytur</title>
+    <style>
+    h1 {
+      --main-color: #f0f;
+      color: var(--main-color);
+    }
+
+    span {
+      color: #000;
+      background-color: var(--main-color, #0f0);
+    }
+
+    :root {
+      --header-size: 2em;
+      --multiplier: 2;
+      --margins: 10px 20px;
+    }
+
+    h2 {
+      font-size: calc(var(--multiplier) * var(--header-size));
+      margin: var(--margins);
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1>Halló <span>heimur</span></h1>
+    <p>bless <span>bless</span></p>
+
+    <h2>global breytur</h2>
+
+    <h2 style="--header-size: 4em;">Breytt með style</h2>
+  </body>
+</html>

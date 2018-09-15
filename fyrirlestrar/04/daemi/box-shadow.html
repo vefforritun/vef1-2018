@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Box shadow</title>
+    <style>
+
+    .box {
+      width: 200px;
+      height: 200px;
+
+      margin: 50px;
+      border: 5px solid #f00;
+      padding: 50px;
+
+      background-color: #fff;
+    }
+
+    .shadow {
+      box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    .shadow-inset {
+      box-shadow: inset 1px 1px 20px 1px rgba(0, 0, 0, 0.75);
+    }
+
+    .shadow-both {
+      box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.75),
+        inset 1px 1px 20px 1px rgba(255, 0, 255, 0.5);
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="box shadow"></div>
+    <div class="box shadow-inset"></div>
+    <div class="box shadow-both"></div>
+  </body>
+</html>
