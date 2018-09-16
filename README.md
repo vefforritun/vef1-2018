@@ -27,7 +27,7 @@ Sjá Uglu.
 |  13  | 19. nóvember  | Buffer                                                      |                      | JS #4         |
 |  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf             |                      | Hópverkefni 2 |
 
-#             # Lesefni
+## Lesefni
 
 * Vika #1
   - [Kafli 0: Inngangur](https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md)
@@ -64,6 +64,7 @@ Sjá Uglu.
 * [Verkefni 1](https://github.com/vefforritun/vef1-2018-v1), sett fyrir 27. ágúst, skilist 7. september
 * [Verkefni 2](https://github.com/vefforritun/vef1-2018-v2), sett fyrir 3. september, skilist 11. september
   - [Kynning í fyrirlestri](https://youtu.be/c8YD7QWsjIY)
+  - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v2-synilausn)
 * [Verkefni 3](https://github.com/vefforritun/vef1-2018-v3), sett fyrir 10. september, skilist 18. september
   - [Kynning í fyrirlestri](https://youtu.be/BiyHBlDkPCo)
 * [Verkefni 4](https://github.com/vefforritun/vef1-2018-v4), sett fyrir 17. september, skilist 25. september
