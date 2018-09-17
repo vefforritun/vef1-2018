@@ -68,6 +68,7 @@ Sjá Uglu.
 * [Verkefni 3](https://github.com/vefforritun/vef1-2018-v3), sett fyrir 10. september, skilist 18. september
   - [Kynning í fyrirlestri](https://youtu.be/BiyHBlDkPCo)
 * [Verkefni 4](https://github.com/vefforritun/vef1-2018-v4), sett fyrir 17. september, skilist 25. september
+  - [Kynning í fyrirlestri](https://youtu.be/gT7tuLdNfqs)
 
 ---
 

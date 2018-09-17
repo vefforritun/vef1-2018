@@ -1,10 +1,10 @@
 # Fyrirlestur 4, 17. september 2017
 
-[Fyrirlestur 4.1: CSS #2 – Visual formatting](04.1.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 4.1: CSS – Visual formatting](04.1.css.md), [vídeó](https://youtu.be/Saab1-fPuV8)
 
-[Fyrirlestur 4.2: CSS #2 – Stuðningur við CSS](04.2.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 4.2: CSS – Stuðningur við CSS](04.2.css.md), [vídeó](https://youtu.be/ELJ5ofjmMcY)
 
-[Fyrirlestur 4.3: CSS #2 – Letur & texti, litir & bakgrunnar](04.3.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 4.3: CSS – Letur & texti, litir & bakgrunnar](04.3.css.md), [vídeó](https://youtu.be/3w-2Muh4k-M)
 
 ## Dæmi
 
