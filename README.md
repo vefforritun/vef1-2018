@@ -58,6 +58,8 @@ Sjá Uglu.
   - CSS, syntax, specificity og cascade, box model
 * [Fyrirlestur 4, 17. september 2018](fyrirlestrar/04/)
   - Visual formatting, letur og texti, litir og bakgrunnar, variables
+* [Fyrirlestur 5, 24. september 2018](fyrirlestrar/05/)
+  - Flexbox, CSS í stærri verkefnum. Git, GitHub
 
 ## Verkefni
 
@@ -67,8 +69,10 @@ Sjá Uglu.
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v2-synilausn)
 * [Verkefni 3](https://github.com/vefforritun/vef1-2018-v3), sett fyrir 10. september, skilist 18. september
   - [Kynning í fyrirlestri](https://youtu.be/BiyHBlDkPCo)
+  - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v3-synilausn)
 * [Verkefni 4](https://github.com/vefforritun/vef1-2018-v4), sett fyrir 17. september, skilist 25. september
   - [Kynning í fyrirlestri](https://youtu.be/gT7tuLdNfqs)
+* [Verkefni 5](https://github.com/vefforritun/vef1-2018-v5), sett fyrir 24. september, skilist 2. október
 
 ---
 
