@@ -8,6 +8,8 @@
 
 ## Dæmi
 
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2018/fyrirlestrar/05/)
+
 * [Bullseye](daemi/bullseye.html)
 * [Inline flex](daemi/inline-flex.html)
 * [Flex items](daemi/items.html)

@@ -8,6 +8,8 @@
 
 ## Dæmi
 
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2018/fyrirlestrar/03/)
+
 * [Border](daemi/border.html)
 * [Box model](daemi/box.html)
 * [Cascade & fonts](daemi/cascade-font.html)

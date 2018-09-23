@@ -8,6 +8,8 @@
 
 ## Dæmi
 
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2018/fyrirlestrar/04/)
+
 * [Leturgerðir](daemi/basic-typefaces.html)
 * [Bakgrunnar og litir](daemi/bg.html)
 * [border-radius](daemi/border-radius.html)

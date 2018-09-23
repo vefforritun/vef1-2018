@@ -8,4 +8,6 @@
 
 ## Dæmi
 
+[Skoða „lifandi“ dæmi](https://vefforritun.github.io/vef1-2018/fyrirlestrar/01/)
+
 * [Minnsta HTML skjalið](daemi/minnsta.html)
