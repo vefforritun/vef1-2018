@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox - items</title>
+    <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px 0 0 20px;
+      background-color: pink;
+
+      margin-right: -10px;
+
+      display: flex;
+
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .box {
+      /**
+       * ef við setjum sem 1 fara öll box að vilja vera jafn stór
+       * í grunninn, sjálfgefið er 0
+       */
+      flex: 1;
+
+      display: block;
+      box-sizing: border-box;
+
+      margin-bottom: 20px;
+      margin-right: 20px;
+
+      border: 5px solid #f00;
+      padding: 50px;
+
+      background-color: #000;
+      color: #fff;
+    }
+
+    .low {
+      order: -1;
+    }
+
+    .mid {
+      order: 1;
+    }
+
+    .high {
+      order: 2;
+    }
+
+    .flex-two {
+      flex: 2;
+    }
+
+    .flex-three {
+      flex: 3;
+    }
+
+    .self {
+      align-self: center;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <h2>Breyta röð</h2>
+    <div class="container">
+      <div class="box mid">1</div>
+      <div class="box"><span>2</span></div>
+      <div class="box high">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box low">6</div>
+    </div>
+
+    <h2>Breyta stærð</h2>
+    <div class="container">
+      <div class="box flex-three">1</div>
+      <div class="box">2</div>
+      <div class="box flex-two">3</div>
+      <div class="box">4</div>
+      <div class="box self"></div>
+    </div>
+
+  </body>
+</html>

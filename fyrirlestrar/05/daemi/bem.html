@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>BEM</title>
+    <style>
+    .button {
+      display: flex;
+      align-items: center;
+
+      margin: 0 0 1rem 0;
+      padding: 5px 10px;
+      border: 1px solid #999;
+
+      font-family: helvetica, arial, sans-serif;
+      font-size: 1.5rem;
+      font-weight: normal
+    }
+
+    .button--inline {
+      display: inline-flex;
+      margin: 0 5px;
+      padding: 2px 5px;
+
+      font-size: 1rem;
+    }
+
+    .button__price {
+      margin-left: 1rem;
+      font-weight: bold;
+    }
+
+    .button--inline .button__price {
+      margin-left: 0.5rem;
+    }
+    </style>
+  </head>
+  <body>
+    <button class="button">
+      Mjólk
+      <span class="button__price">100 kr.-</span>
+    </button>
+
+    <button class="button">
+      Brauð
+      <span class="button__price">200 kr.-</span>
+    </button>
+
+    <span href="#" class="button">foo</span>
+
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada
+      <button class="button button--inline">lorem ipsum</button>
+      fames ac turpis egestas. Proin a dictum metus, non aliquam justo.
+      Vivamus nulla nisl, ultrices eu odio non, consequat faucibus justo.
+      Phasellus magna dui, faucibus sit amet massa ullamcorper, pellentesque
+      bibendum lorem. <button class="button button--inline">justo <span class="button__price">10 kr.-</span></button>
+      Ut tincidunt lobortis sollicitudin.
+    </p>
+  </body>
+</html>

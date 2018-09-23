@@ -16,9 +16,9 @@ Sjá Uglu.
 |  2   | 3. september  | Element, merkingarfræði, aðgengi og SEO                     | HTML #2              | HTML #1       |
 |  3   | 10. september | CSS, syntax, specificity og cascade, box model              | CSS #1               | HTML #2       |
 |  4   | 17. september | Visual formatting, letur&texti, litir&bakgrunnar, variables | CSS #2               | CSS #1        |
-|  5   | 24. september | Flexbox, Git, GitHub                                        | CSS #3               | CSS #2        |
-|  6   | 1. október    | Skalanlegir vefir, CSS í stærri verkefnum, CSS grid         | CSS #4               | CSS #3        |
-|  7   | 8. október    | Kvikun, hönnun, Sass, NPM, pakkar                           | Hópverkefni 1        | CSS #4        |
+|  5   | 24. september | Flexbox, CSS í stærri verkefnum. Git, GitHub                | CSS #3               | CSS #2        |
+|  6   | 1. október    | Skalanlegir vefir, CSS grid, kvikun                         | CSS #4               | CSS #3        |
+|  7   | 8. október    | Hönnun. NPM, pakkar, Sass og stylelint                      | Hópverkefni 1        | CSS #4        |
 |  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir                |                      |               |
 |  9   | 22. október   | Forritun á vef, DOM og atburðir, einingar, eslint           | JS #1                | Hópverkefni 1 |
 |  10  | 29. október   | Villumeðhöndlun, reglulegar segðir, HTTP, Ajax              | JS #2                | JS #1         |
@@ -41,7 +41,7 @@ Sjá Uglu.
 * Vika #4
   - [Kafli 2: CSS]() frá og með [2.12 Visual formatting model](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#212-visual-formatting-model) til og með [2.21 – Annað](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#221-anna%C3%B0)
 * Vika #5
-  - [Kafli 2.22: Flexbox](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#222-flexbox)
+  - [Kafli 2.22: Flexbox](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#222-flexbox) og [Kafli 2.24: 2.24 CSS í stærri verkefnum](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#224-css-%C3%AD-st%C3%A6rri-verkefnum)
   - [Pro Git: Kafli 1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
   - [Pro Git: Kafli 2](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
   - [Pro Git: Kafli 3, undirkaflar 3.1, 3.2 og 3.6](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)

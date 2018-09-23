@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox - position</title>
+    <style>
+    body {
+      margin: 0;
+    }
+
+    div {
+      display: flex;
+      background-color: pink;
+
+      /**
+       * ef við setjum eftirfarandi inn má sjá hvernig
+       * align-content hagar sér á cross axis, þar sem
+       * við breytum flex-direction í column og gerum main axis
+       * að cross axis
+       */
+      flex-direction: column;
+      height: 700px;
+    }
+
+    .center {
+      justify-content: center;
+    }
+
+    .space-around {
+      justify-content: space-around;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .flex-start {
+      justify-content: flex-start;
+    }
+
+    .flex-end {
+      justify-content: flex-end;
+    }
+
+    .box {
+      display: block;
+
+      height: 50px;
+      width: 50px;
+
+      margin: 10px;
+      border: 5px solid #f00;
+      padding: 50px;
+
+      background-color: #000;
+      color: #fff;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h2><code>center</code></h2>
+    <div class="center">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <h2><code>space-around</code></h2>
+    <div class="space-around">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <h2><code>space-between</code></h2>
+    <div class="space-between">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <h2><code>flex-start</code></h2>
+    <div class="flex-start">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <h2><code>flex-end</code></h2>
+    <div class="flex-end">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+  </body>
+</html>

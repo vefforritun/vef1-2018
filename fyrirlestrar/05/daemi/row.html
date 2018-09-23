@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox - Row</title>
+    <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px 20px 0 20px;
+      background-color: pink;
+
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .nowrap {
+      flex-wrap: nowrap;
+    }
+
+    .stretch {
+      align-items: stretch;
+    }
+
+    .align-content {
+      align-content: space-around;
+      height: 1000px;
+    }
+
+    .box {
+      display: block;
+      box-sizing: border-box;
+
+      width: 29%;
+      margin-bottom: 20px;
+
+      border: 5px solid #f00;
+      padding: 50px;
+
+      background-color: #000;
+      color: #fff;
+    }
+
+    .high {
+      min-height: 200px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h2>Fá box</h2>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <h2>Mörg box, nowrap</h2>
+    <div class="container nowrap">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <h2>Mörg box, wrap</h2>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+
+    <h2>Mörg box, wrap, mismunandi hæð, <code>align-items: center;</code></h2>
+    <div class="container">
+      <div class="box high">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</div>
+      <div class="box">lorem ipsum dolor sit amet </div>
+      <div class="box">lorem ipsum dolor sit amet</div>
+      <div class="box">lorem ipsum dolor sit amet</div>
+      <div class="box high">lorem ipsum dolor sit amet</div>
+      <div class="box"></div>
+    </div>
+
+    <h2>Mörg box, wrap, mismunandi hæð, <code>align-items: stretch;</code></h2>
+    <div class="container stretch">
+      <div class="box high">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</div>
+      <div class="box">lorem ipsum dolor sit amet </div>
+      <div class="box">lorem ipsum dolor sit amet</div>
+      <div class="box">lorem ipsum dolor sit amet</div>
+      <div class="box high">lorem ipsum dolor sit amet</div>
+      <div class="box"></div>
+    </div>
+
+    <h2>Mörg box, wrap, mismunandi hæð, <code>align-items: stretch;</code>, <code>align-content: space-between;</code></h2>
+    <div class="container stretch align-content">
+      <div class="box high">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</div>
+      <div class="box">lorem ipsum dolor sit amet </div>
+      <div class="box">lorem ipsum dolor sit amet</div>
+      <div class="box">lorem ipsum dolor sit amet</div>
+      <div class="box high">lorem ipsum dolor sit amet</div>
+      <div class="box"></div>
+    </div>
+
+  </body>
+</html>
