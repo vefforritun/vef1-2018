@@ -59,11 +59,23 @@
     }
 
     .flex-three {
-      flex: 3;
+      flex: 1 0 300px;
     }
 
     .self {
       align-self: center;
+    }
+
+    .flex {
+      flex-wrap: nowrap;
+    }
+
+    .flex .box:nth-child(1) {
+      flex: 1 1 20em;
+    }
+
+    .flex .box:nth-child(2) {
+      flex: 2 2 20em;
     }
 
     </style>
@@ -87,6 +99,12 @@
       <div class="box flex-two">3</div>
       <div class="box">4</div>
       <div class="box self"></div>
+    </div>
+
+    <h2>Flex</h2>
+    <div class="container flex">
+      <div class="box">1</div>
+      <div class="box">2</div>
     </div>
 
   </body>
