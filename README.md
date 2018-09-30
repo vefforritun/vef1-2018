@@ -17,14 +17,14 @@ Sjá Uglu.
 |  3   | 10. september | CSS, syntax, specificity og cascade, box model              | CSS #1               | HTML #2       |
 |  4   | 17. september | Visual formatting, letur&texti, litir&bakgrunnar, variables | CSS #2               | CSS #1        |
 |  5   | 24. september | Flexbox, CSS í stærri verkefnum. Git, GitHub                | CSS #3               | CSS #2        |
-|  6   | 1. október    | Skalanlegir vefir, CSS grid, kvikun                         | CSS #4               | CSS #3        |
-|  7   | 8. október    | Hönnun. NPM, pakkar, Sass og stylelint                      | Hópverkefni 1        | CSS #4        |
-|  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir                |                      |               |
-|  9   | 22. október   | Forritun á vef, DOM og atburðir, einingar, eslint           | JS #1                | Hópverkefni 1 |
-|  10  | 29. október   | Villumeðhöndlun, reglulegar segðir, HTTP, Ajax              | JS #2                | JS #1         |
-|  11  | 5. nóvember   | Hlutir, prótótýpur, HTML5 og JavaScript                     | JS #3, hópverkefni 2 | JS #2         |
-|  12  | 12. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða                   | JS #4                | JS #3         |
-|  13  | 19. nóvember  | Buffer                                                      |                      | JS #4         |
+|  6   | 1. október    | Skalanlegir vefir, hönnun, kvikun                           | CSS #4               | CSS #3        |
+|  7   | 8. október    | CSS grid. NPM, pakkar, Sass og stylelint                    | Hópverkefni 1        | CSS #4        |
+|  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll          |                      |               |
+|  9   | 22. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar  | JS #1                | Hópverkefni 1 |
+|  10  | 29. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun        | JS #2                | JS #1         |
+|  11  | 5. nóvember   | HTTP, Ajax, JavaScript og form, eslint                      | JS #3, hópverkefni 2 | JS #2         |
+|  12  | 12. nóvember  | Hlutir, prótótýpur, HTML5 og JavaScript                     | JS #4                | JS #3         |
+|  13  | 19. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða                   |                      | JS #4         |
 |  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf             |                      | Hópverkefni 2 |
 
 ## Lesefni
@@ -39,14 +39,47 @@ Sjá Uglu.
   - [Kafli 2: CSS](https://github.com/vefforritun/book/blob/master/chapters/02.css.md), til og með [2.12.1 Normal flow – eðlilegt flæði](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#2121-normal-flow--e%C3%B0lilegt-fl%C3%A6%C3%B0i)
   - [Resilient Web Design, chapter 2: Materials](https://resilientwebdesign.com/chapter2/)
 * Vika #4
-  - [Kafli 2: CSS]() frá og með [2.12 Visual formatting model](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#212-visual-formatting-model) til og með [2.21 – Annað](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#221-anna%C3%B0)
+  - [Kafli 2: CSS](https://github.com/vefforritun/book/blob/master/chapters/02.css.md) frá og með [2.12 Visual formatting model](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#212-visual-formatting-model) til og með [2.21 – Annað](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#221-anna%C3%B0)
 * Vika #5
-  - [Kafli 2.22: Flexbox](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#222-flexbox) og [Kafli 2.24: 2.24 CSS í stærri verkefnum](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#224-css-%C3%AD-st%C3%A6rri-verkefnum)
+  - [Kafli 2.22: Flexbox](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#222-flexbox)
+  - [Kafli 2.24: 2.24 CSS í stærri verkefnum](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#224-css-%C3%AD-st%C3%A6rri-verkefnum)
   - [Pro Git: Kafli 1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
   - [Pro Git: Kafli 2](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
   - [Pro Git: Kafli 3, undirkaflar 3.1, 3.2 og 3.6](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
   - [Pro Git: Kafli 6, undirkaflar 6.1, 6.2 og 6.3](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)
   - [Pro Git: Kafli 7, undirkaflar 7.3 og 7.7](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
+* Vika #6
+  - [Kafli 2.23 Skalanleg vefhönnun](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#223-skalanleg-vefh%C3%B6nnun)
+  - [Kafli 2.25 Kvikun](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#225-kvikun)
+  - [Kafli 2.27 Hönnun](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#227-h%C3%B6nnun)
+  - [Resilient Web Design, chapter 3: Visions](https://resilientwebdesign.com/chapter3/)
+* Vika #7
+  - [Kafli 2.26 Tæki & tól](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#226-t%C3%A6ki--t%C3%B3l)
+  - [Kafli 2.28 CSS Grid](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#228-css-grid)
+* Vika #8
+  - [Eloquent JavaScript, kafli 1: Values, Types, and Operators](https://eloquentjavascript.net/01_values.html)
+  - [Eloquent JavaScript, kafli 2: Program Structure](https://eloquentjavascript.net/02_program_structure.html)
+  - [Eloquent JavaScript, kafli 3: Functions](https://eloquentjavascript.net/03_functions.html)
+  - [Resilient Web Design, chapter 4: Languages](https://resilientwebdesign.com/chapter4/)
+* Vika #9
+  - [Eloquent JavaScript, kafli 4: Data Structures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
+  - [Eloquent JavaScript, kafli 8: Bugs and Errors](https://eloquentjavascript.net/08_error.html)
+  - [Eloquent JavaScript, kafli 9: Regular Expressions](https://eloquentjavascript.net/09_regexp.html)
+  - [Eloquent JavaScript, kafli 10: Modules](https://eloquentjavascript.net/10_modules.html)
+  - [Resilient Web Design, chapter 5: Layers](https://resilientwebdesign.com/chapter5/)+
+* Vika #10
+  - [Eloquent JavaScript, kafli 11: Asynchronous Programming](https://eloquentjavascript.net/11_async.html)
+  - [Eloquent JavaScript, kafli 13: JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
+  - [Eloquent JavaScript, kafli 14: The Document Object Model](https://eloquentjavascript.net/14_dom.html)
+  - [Eloquent JavaScript, kafli 15: Handling Events](https://eloquentjavascript.net/15_event.html)
+* Vika #11
+  - [Eloquent JavaScript, kafli 18: HTTP and Forms](https://eloquentjavascript.net/18_http.html)
+  - [Resilient Web Design, chapter 6: Steps](https://resilientwebdesign.com/chapter6/)
+* Vika #12
+  - [Eloquent JavaScript, kafli 6: The Secret Life of Objects](https://eloquentjavascript.net/06_object.html)
+  - [Resilient Web Design, chapter 7: Challenges](https://resilientwebdesign.com/chapter7/)
+* Vika #13
+  - [Eloquent JavaScript, kafli 5: Higher-order Functions](https://eloquentjavascript.net/05_higher_order.html)
 
 ## Fyrirlestrar
 
