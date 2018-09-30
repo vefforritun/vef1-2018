@@ -105,6 +105,7 @@ Sjá Uglu.
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v3-synilausn)
 * [Verkefni 4](https://github.com/vefforritun/vef1-2018-v4), sett fyrir 17. september, skilist 25. september
   - [Kynning í fyrirlestri](https://youtu.be/gT7tuLdNfqs)
+  - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v4-synilausn)
 * [Verkefni 5](https://github.com/vefforritun/vef1-2018-v5), sett fyrir 24. september, skilist 2. október
   - [Kynning í fyrirlestri](https://youtu.be/hRdwaXB11XU)
 
