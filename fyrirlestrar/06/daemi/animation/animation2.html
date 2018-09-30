@@ -1,0 +1,61 @@
+<!doctype html>
+<!--
+  Flipper dæmi frá http://davidwalsh.name/css-flip
+-->
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Animation</title>
+    <style>
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 400px;
+    }
+
+    div.front {
+      background: lightblue;
+    }
+
+    div.back {
+      background: red;
+    }
+
+    .container {
+    }
+
+    .card {
+      position: absolute;
+      left: 0; right: 0; top: 0; bottom: 0;
+      transform-style: preserve-3d; /* stackast í þrívídd */
+      transition: transform 0.2s linear; /* ease, ease-in o.fl. */
+    }
+
+    .container:hover .card {
+      transform: rotateY(180deg);
+    }
+
+    .face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden; /* ekki sýna það sem er á bakvið */
+    }
+
+    .face.back {
+      display: block;
+      transform: rotateY(180deg); /* sjáum ekki bakhliðina strax */
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="front face">Framhlið</div>
+        <div class="back face center">Bakhlið</div>
+      </div>
+    </div>
+  </body>
+</html>

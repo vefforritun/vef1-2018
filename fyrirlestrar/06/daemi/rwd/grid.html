@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Grid</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .grid {
+      max-width: 72rem;
+      margin: 0 auto;
+    }
+
+    .row {
+      display: flex;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    .col {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .col-12 {
+      width: 100%;
+    }
+
+    .col-6 {
+      width: 50%;
+    }
+
+    .col-3 {
+      width: 25%;
+    }
+
+    .offset-3 {
+      margin-left: 25%;
+    }
+
+    .box {
+      box-sizing: border-box;
+      margin-bottom: 30px;
+      padding: 1rem;
+      border: 1px solid #000;
+    }
+
+    /*
+      css galdrar sem útbúa fyrir okkur „grid overlay“, sjá
+       https://css-tricks.com/building-css-grid-overlay/
+    */
+    :root {
+      --offset: 10px;
+      --max_width: 72rem;
+      --columns: 12;
+      --gutter: 20px;
+      --color: hsla(204, 80%, 72%, 0.25);
+      --repeating-width: calc(100% / var(--columns));
+      --column-width: calc((100% / var(--columns)) - var(--gutter));
+      --background-width: calc(100% + var(--gutter));
+      --background-columns: repeating-linear-gradient(
+        to right,
+        var(--color),
+        var(--color) var(--column-width),
+        transparent var(--column-width),
+        transparent var(--repeating-width)
+      );
+    }
+
+    /* Styling */
+    html {
+      position: relative;
+    }
+
+    html::before {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      margin-right: auto;
+      margin-left: auto;
+      width: calc(100% - (2 * var(--offset)));
+      max-width: var(--max_width);
+      min-height: 100vh;
+      content: '';
+      background-image: var(--background-columns);
+      background-size: var(--background-width) 100%;
+      z-index: 1000;
+      pointer-events: none;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="grid">
+        <div class="row">
+          <div class="col col-12">
+            <div class="box">100% dálkur</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-6">
+            <div class="box">50% dálkur</div>
+          </div>
+          <div class="col col-6">
+            <div class="box">50% dálkur</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-3">
+            <div class="box">25% dálkur</div>
+          </div>
+          <div class="col col-3">
+            <div class="box">25% dálkur</div>
+          </div>
+          <div class="col col-3">
+            <div class="box">25% dálkur</div>
+          </div>
+          <div class="col col-3">
+            <div class="box">25% dálkur</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-3 col col-3">
+            <div class="box">25% dálkur sem byrjar frá 25%</div>
+          </div>
+          <div class="col col-6">
+            <div class="box">50% dálkur</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

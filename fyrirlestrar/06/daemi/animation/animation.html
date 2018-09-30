@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="is">
+  <head>
+	  <meta charset="utf-8">
+	  <title>Animation</title>
+	  <style>
+    h1 {
+      animation: foo 5s infinite;
+      animation-delay: 1s;
+    }
+
+    @keyframes foo {
+      0% { margin-top: 5%; margin-left: 5%;	opacity: 1; }
+      25% { margin-top: 25%; margin-left: 25%;	}
+      50% { margin-top: 50%; margin-left: 25%; opacity: 0.2; }
+      75% { margin-top: 25%; margin-left: 50%; }
+      100% { margin-top: 5%; margin-left: 5%; opacity: 0.9;  }
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Halló heimur!</h1>
+  </body>
+</html>

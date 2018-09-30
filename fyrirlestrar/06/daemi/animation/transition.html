@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Transition</title>
+    <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: #0f0;
+      border-radius: 6px;
+
+      transition:
+        background-color 700ms,
+        border-radius 2s ease-in-out;
+    }
+
+    .box:hover {
+      background-color: #f0f;
+      border-radius: 50%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

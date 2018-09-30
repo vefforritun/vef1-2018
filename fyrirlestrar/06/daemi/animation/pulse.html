@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Pulse</title>
+    <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* frá http://tilomitra.github.io/infinite/ */
+    .pulse {
+      margin: auto;
+      animation: pulsate 4s ease-in;
+      animation-iteration-count: infinite;
+      opacity: 0;
+
+      border: 5px solid #999;
+      border-radius: 50%;
+      height: 180px;
+      width: 180px;
+    }
+
+    @keyframes pulsate {
+      0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.2, 1.2);
+        opacity: 0;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="pulse"></div>
+  </body>
+</html>

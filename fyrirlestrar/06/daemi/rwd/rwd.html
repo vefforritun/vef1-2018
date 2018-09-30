@@ -1,0 +1,203 @@
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .grid {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    .col {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .col-12 {
+      width: 100%;
+    }
+
+    .col-6 {
+      width: 50%;
+    }
+
+    .col-3 {
+      width: 25%;
+    }
+
+    .offset-3 {
+      margin-left: 25%;
+    }
+
+    @media (max-width: 599px) {
+      .col-sm-12 {
+        width: 100%;
+      }
+
+      .col-sm-6 {
+        width: 50%;
+      }
+
+      .col-sm-3 {
+        width: 25%;
+      }
+
+      .offset-sm-0 {
+        margin-left: 0;
+      }
+    }
+
+    .box {
+      box-sizing: border-box;
+      margin-bottom: 30px;
+      padding: 1rem;
+      border: 1px solid #000;
+    }
+
+    /* object-fit dæmi */
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      height: 200px;
+      border: 2px solid #000;
+      overflow: hidden;
+    }
+
+    .fill {
+      object-fit: fill;
+    }
+
+    .cover {
+      object-fit: cover;
+    }
+
+    .contain {
+      object-fit: contain;
+    }
+
+    .none {
+      object-fit: none;
+    }
+
+    .scale-down {
+      object-fit: scale-down;
+    }
+
+    .cover-pos {
+      object-fit: cover;
+      object-position: 0 0;
+    }
+
+    /*
+      css galdrar sem útbúa fyrir okkur „grid overlay“, sjá
+       https://css-tricks.com/building-css-grid-overlay/
+    */
+    :root {
+      --offset: 0;
+      --max_width: 1200px;
+      --columns: 12;
+      --gutter: 20px;
+      --color: hsla(204, 80%, 72%, 0.25);
+      --repeating-width: calc(100% / var(--columns));
+      --column-width: calc((100% / var(--columns)) - var(--gutter));
+      --background-width: calc(100% + var(--gutter));
+      --background-columns: repeating-linear-gradient(
+        to right,
+        var(--color),
+        var(--color) var(--column-width),
+        transparent var(--column-width),
+        transparent var(--repeating-width)
+      );
+    }
+
+    /* Styling */
+    html {
+      position: relative;
+    }
+
+    html::before {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      margin-right: auto;
+      margin-left: auto;
+      width: calc(100% - (2 * var(--offset)));
+      max-width: var(--max_width);
+      min-height: 100vh;
+      content: '';
+      background-image: var(--background-columns);
+      background-size: var(--background-width) 100%;
+      z-index: 1000;
+      pointer-events: none;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="grid">
+        <div class="row">
+          <div class="col col-12">
+            <div class="box">
+              <h1>Lorem ipsum</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas quis felis in dapibus. Aliquam neque dui, consequat sed urna blandit, tempor lacinia sem. Nulla arcu erat, fermentum in rhoncus in, varius at dolor. Nam facilisis urna nunc, in consequat orci dapibus non. Aliquam faucibus sodales metus ac pulvinar. Maecenas non aliquet neque. Sed suscipit efficitur urna sed posuere. Maecenas semper pulvinar volutpat. Nullam id nisi semper, eleifend justo in, fringilla risus. Vestibulum et risus at nunc sodales rutrum. Ut ac semper lorem, vel iaculis neque. Praesent iaculis massa nulla, quis volutpat mi maximus sed. Pellentesque sed est molestie, maximus urna id, mattis urna.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-6 col-sm-12">
+            <div class="box">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas quis felis in dapibus. Aliquam neque dui, consequat sed urna blandit, tempor lacinia sem. Nulla arcu erat, fermentum in rhoncus in, varius at dolor. Nam facilisis urna nunc, in consequat orci dapibus non. Aliquam faucibus sodales metus ac pulvinar. Maecenas non aliquet neque. Sed suscipit efficitur urna sed posuere. Maecenas semper pulvinar volutpat. Nullam id nisi semper, eleifend justo in, fringilla risus. Vestibulum et risus at nunc sodales rutrum. Ut ac semper lorem, vel iaculis neque. Praesent iaculis massa nulla, quis volutpat mi maximus sed. Pellentesque sed est molestie, maximus urna id, mattis urna.</p>
+            </div>
+          </div>
+          <div class="col col-6 col-sm-12">
+            <div class="box">
+              <p>Aliquam neque dui, consequat sed urna blandit, tempor lacinia sem. Nulla arcu erat, fermentum in rhoncus in, varius at dolor. Nam facilisis urna nunc, in consequat orci dapibus non. Aliquam faucibus sodales metus ac pulvinar. Maecenas non aliquet neque. Sed suscipit efficitur urna sed posuere. Maecenas semper pulvinar volutpat. Nullam id nisi semper, eleifend justo in, fringilla risus. Vestibulum et risus at nunc sodales rutrum. Ut ac semper lorem, vel iaculis neque. Praesent iaculis massa nulla, quis volutpat mi maximus sed. Pellentesque sed est molestie, maximus urna id, mattis urna.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-3 col-sm-6">
+            <div class="box"><img src="test-card.png" class="cover"></div>
+          </div>
+          <div class="col col-3 col-sm-6">
+            <div class="box"><img src="test-card.png" class="contain"></div>
+          </div>
+          <div class="col col-3 col-sm-6">
+            <div class="box"><img src="test-card.png" class="scale-down"></div>
+          </div>
+          <div class="col col-3 col-sm-6">
+            <div class="box"><img src="test-card.png" class="cover-pos"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-3 col-sm-6 offset-3">
+            <div class="box"><img src="test-card.png" class="cover"></div>
+          </div>
+          <div class="col col-6 col-sm-12">
+            <div class="box">
+              <p>Aliquam neque dui, consequat sed urna blandit, tempor lacinia sem. Nulla arcu erat, fermentum in rhoncus in, varius at dolor. Nam facilisis urna nunc, in consequat orci dapibus non. Aliquam faucibus sodales metus ac pulvinar. Maecenas non aliquet neque. Sed suscipit efficitur urna sed posuere. Maecenas semper pulvinar volutpat. Nullam id nisi semper, eleifend justo in, fringilla risus. Vestibulum et risus at nunc sodales rutrum. Ut ac semper lorem, vel iaculis neque. Praesent iaculis massa nulla, quis volutpat mi maximus sed. Pellentesque sed est molestie, maximus urna id, mattis urna.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

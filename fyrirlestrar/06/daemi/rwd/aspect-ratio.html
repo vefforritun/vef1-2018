@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Stærðarhlutföll</title>
+    <style>
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .box {
+      position: relative;
+      width: 100%; /* fyllir upp í foreldri sitt, t.d. dálk */
+    }
+
+    .box::before {
+      content: '';
+      display: block;
+      padding-top: 62.5% /* fyrir 16:10 setjum við 10/16*100=62.5% */
+    }
+
+    .content {
+      /* fyllir upp í foreldri sitt */
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+
+      background-color: red;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="content">16:10 efni</div>
+      </div>
+    </main>
+  </body>
+</html>

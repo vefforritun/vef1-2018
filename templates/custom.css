@@ -27,7 +27,15 @@
 .reveal dl.flat dt { margin: 0 0 0.5em 0; float: left; clear: both; width: 25%; }
 .reveal dl.flat dd { float: left; }
 
-.reveal blockquote { border: 0; padding: 1em; line-height: 1.2em; box-shadow: none; background: transparent; }
+.reveal blockquote {
+  width: 100%;
+  border: 0;
+  padding: 1em;
+  line-height: 1.2em;
+  box-shadow: none;
+  background: transparent;
+}
+
 .reveal blockquote cite { float: right; font-style: normal; margin-top: 1em; }
 
 .reveal abbr { border-bottom: 2px dotted #999; }

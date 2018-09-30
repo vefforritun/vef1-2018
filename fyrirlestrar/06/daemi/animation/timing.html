@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Timing functions</title>
+    <style>
+    div {
+      min-height: 100vh;
+      margin-bottom: 50vh;
+      background-color: #fff;
+      color: #000;
+
+      font-size: 5em;
+      transition: background-color 1s linear, color 1s linear;
+    }
+
+    body:hover div {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .ease {
+      transition-timing-function: ease;
+    }
+
+    .ease-in {
+      transition-timing-function: ease-in;
+    }
+
+    .ease-in-out {
+      transition-timing-function: ease-in-out;
+    }
+
+    .ease-out {
+      transition-timing-function: ease-out;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="linear">Línuleg hröðun</div>
+    <div class="ease">ease hröðun</div>
+    <div class="ease-in">ease-in hröðun</div>
+    <div class="ease-in-out">ease-in-out hröðun</div>
+    <div class="ease-out">ease-out hröðun</div>
+  </body>
+</html>
