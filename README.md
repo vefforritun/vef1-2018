@@ -17,12 +17,12 @@ Sjá Uglu.
 |  3   | 10. september | CSS, syntax, specificity og cascade, box model              | CSS #1               | HTML #2       |
 |  4   | 17. september | Visual formatting, letur&texti, litir&bakgrunnar, variables | CSS #2               | CSS #1        |
 |  5   | 24. september | Flexbox, CSS í stærri verkefnum. Git, GitHub                | CSS #3               | CSS #2        |
-|  6   | 1. október    | Skalanlegir vefir, hönnun, kvikun                           | CSS #4               | CSS #3        |
+|  6   | 1. október    | Skalanlegir vefir, kvikun, hönnun                           | CSS #4               | CSS #3        |
 |  7   | 8. október    | CSS grid. NPM, pakkar, Sass og stylelint                    | Hópverkefni 1        | CSS #4        |
 |  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll          |                      |               |
 |  9   | 22. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar  | JS #1                | Hópverkefni 1 |
 |  10  | 29. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun        | JS #2                | JS #1         |
-|  11  | 5. nóvember   | HTTP, Ajax, JavaScript og form, eslint                      | JS #3, hópverkefni 2 | JS #2         |
+|  11  | 5. nóvember   | HTTP, Ajax, JavaScript og form, eslint                      | JS #3, Hópverkefni 2 | JS #2         |
 |  12  | 12. nóvember  | Hlutir, prótótýpur, HTML5 og JavaScript                     | JS #4                | JS #3         |
 |  13  | 19. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða                   |                      | JS #4         |
 |  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf             |                      | Hópverkefni 2 |
@@ -93,6 +93,24 @@ Sjá Uglu.
   - Visual formatting, letur og texti, litir og bakgrunnar, variables
 * [Fyrirlestur 5, 24. september 2018](fyrirlestrar/05/)
   - Flexbox, CSS í stærri verkefnum. Git, GitHub
+* [Fyrirlestur 6, 1. október 2018](fyrirlestrar/06/)
+  - Skalanlegir vefir, kvikun, hönnun
+* Fyrirlestur 7, 8. október 2018
+  - CSS grid. NPM, pakkar, Sass og stylelint
+* Fyrirlestur 8, 15. október 2018
+  - JavaScript, breytur, gagnatög, stýriskipanir, föll
+* Fyrirlestur 9, 22. október 2018
+  - Fylki og hlutir. Villumeðhöndlun, reglulegar segðir, einingar
+* Fyrirlestur 10, 29. október 2018
+  - Forritun á vef, DOM og atburðir, ósamstillt forritun
+* Fyrirlestur 11, 5. nóvember 2018
+  - HTTP, Ajax, JavaScript og form, eslint
+* Fyrirlestur 12, 12. nóvember 2018
+  - Hlutir, prótótýpur, HTML5 og JavaScript
+* Fyrirlestur 13, 19. nóvember 2018
+  - Fallaforritun, tæki og tól, pökkun á kóða
+* Fyrirlestur 14, 26. nóvember 2018
+  - Samantekt og upprifjun, upplýsingar um lokapróf
 
 ## Verkefni
 
@@ -108,6 +126,20 @@ Sjá Uglu.
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v4-synilausn)
 * [Verkefni 5](https://github.com/vefforritun/vef1-2018-v5), sett fyrir 24. september, skilist 2. október
   - [Kynning í fyrirlestri](https://youtu.be/hRdwaXB11XU)
+* [Verkefni 6](https://github.com/vefforritun/vef1-2018-v6), sett fyrir 1. október, skilist 9. október
+* Verkefni 7, sett fyrir 22. október, skilist 30. október
+* Verkefni 8, sett fyrir 29. október, skilist 6. nóvember
+* Verkefni 9, sett fyrir 5. nóvember, skilist 13. nóvember
+* Verkefni 10, sett fyrir 12. nóvember, skilist 20. nóvember
+
+## Hópverkefni
+
+* [Hópverkefni 1](https://github.com/vefforritun/vef1-2018-h1), sett fyrir 8. október, skilist 26. október
+* Hópverkefni 2, sett fyrir 5. nóvember, skilist 27. nóvember
+
+## Lokapróf
+
+Lokapróf verður haldið miðvikudaginn 5. desember frá kl. 09:00–12:00.
 
 ---
 
