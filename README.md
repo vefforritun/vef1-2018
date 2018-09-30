@@ -139,7 +139,7 @@ Sjá Uglu.
 
 ## Lokapróf
 
-Lokapróf verður haldið miðvikudaginn 5. desember frá kl. 09:00–12:00.
+Lokapróf verður haldið miðvikudaginn 5. desember frá kl. 09:00–12:00. Lokapróf frá 2017 má nálgast á Uglu.
 
 ---
 
