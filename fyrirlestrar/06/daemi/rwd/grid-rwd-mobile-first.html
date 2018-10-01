@@ -11,8 +11,19 @@
       box-sizing: border-box;
     }
 
+    main {
+      /*
+      setjum eitt "gutter" vinsta og hægra megin til að efni leggist ekki
+      upp að viewport í minni upplausn
+      */
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    /* stillingar fyrir grid */
+
     .grid {
-      max-width: 72rem;
+      max-width: 1200px;
       margin: 0 auto;
     }
 
@@ -32,35 +43,39 @@
       width: 100%;
     }
 
-    .col-6 {
+    .col-sm-12 {
+      width: 100%;
+    }
+
+    .col-sm-6 {
       width: 50%;
     }
 
-    .col-3 {
+    .col-sm-3 {
       width: 25%;
     }
 
-    .offset-3 {
-      margin-left: 25%;
+    .offset-sm-0 {
+      margin-left: 0;
     }
 
-    @media (max-width: 599px) {
-      .col-sm-12 {
-        width: 100%;
-      }
+    /* frá og með 600px birtum við "desktop" útlit */
 
-      .col-sm-6 {
+    @media (min-width: 600px) {
+      .col-6 {
         width: 50%;
       }
 
-      .col-sm-3 {
+      .col-3 {
         width: 25%;
       }
 
-      .offset-sm-0 {
-        margin-left: 0;
+      .offset-3 {
+        margin-left: 25%;
       }
     }
+
+    /* aðrir stílar */
 
     .box {
       box-sizing: border-box;
@@ -69,10 +84,9 @@
       border: 1px solid #000;
     }
 
-    /* https://css-tricks.com/building-css-grid-overlay/ */
     :root {
-      --offset: 0;
-      --max_width: 72rem;
+      --offset: 20px;
+      --max_width: 1200px;
       --columns: 12;
       --gutter: 20px;
       --color: hsla(204, 80%, 72%, 0.25);
