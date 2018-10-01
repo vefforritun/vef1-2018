@@ -1,10 +1,10 @@
 # Fyrirlestur 6, 1. október 2017
 
-[Fyrirlestur 6.1: Skalanleg vefhönnun](06.1.responsive.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 6.1: Skalanleg vefhönnun](06.1.responsive.md), [vídeó](https://youtu.be/2RHbdRjtU9w)
 
-[Fyrirlestur 6.2: Kvikun](06.2.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 6.2: Kvikun](06.2.css.md), [vídeó](https://youtu.be/CKukcJtFFCQ)
 
-[Fyrirlestur 6.3: Hönnun](06.3.css.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 6.3: Hönnun](06.3.css.md), [vídeó](https://youtu.be/IKBme7cJWFY)
 
 ## Dæmi
 
