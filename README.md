@@ -136,6 +136,7 @@ Sjá Uglu.
 ## Hópverkefni
 
 * [Hópverkefni 1](https://github.com/vefforritun/vef1-2018-h1), sett fyrir 8. október, skilist 26. október
+  - [Kynning í fyrirlestri](https://youtu.be/B66h9ZPTtMs)
 * Hópverkefni 2, sett fyrir 5. nóvember, skilist 27. nóvember
 
 ## Lokapróf
