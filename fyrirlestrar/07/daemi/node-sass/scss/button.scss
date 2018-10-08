@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 5px;
+  margin: 0;
+
+  color: #000;
+
+  border: 1px solid #000;
+
+  transition: color 500ms ease;
+
+  &:hover {
+    color: #0f0;
+  }
+}

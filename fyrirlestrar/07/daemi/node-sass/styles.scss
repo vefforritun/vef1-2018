@@ -1,0 +1,10 @@
+// góð regla að geyma breytur og þess háttar í sér skrá
+@import "scss/config";
+
+main {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+@import "scss/button";
+@import "scss/list";

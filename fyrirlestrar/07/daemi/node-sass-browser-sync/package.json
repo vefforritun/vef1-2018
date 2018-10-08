@@ -1,0 +1,20 @@
+{
+  "name": "node-sass-brower-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "dev": "npm-run-all --parallel sass sass-watch browser-sync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.0",
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3"
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  color: blue;
+background-color: white;
+}
+
+.foo {
+  font-size: 1rem;
+  &bar {
+    margin: 10px;
+    width: 100px;
+  }
+}

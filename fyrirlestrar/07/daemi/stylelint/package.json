@@ -1,0 +1,17 @@
+{
+  "name": "stylelint-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint-css": "stylelint styles.css",
+    "lint-scss": "stylelint styles.scss --syntax scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^9.6.0",
+    "stylelint-config-primer": "^2.2.10"
+  }
+}

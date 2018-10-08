@@ -18,7 +18,7 @@ Sjá Uglu.
 |  4   | 17. september | Visual formatting, letur&texti, litir&bakgrunnar, variables | CSS #2               | CSS #1        |
 |  5   | 24. september | Flexbox, CSS í stærri verkefnum. Git, GitHub                | CSS #3               | CSS #2        |
 |  6   | 1. október    | Skalanlegir vefir, kvikun, hönnun                           | CSS #4               | CSS #3        |
-|  7   | 8. október    | CSS grid. NPM, pakkar, Sass og stylelint                    | Hópverkefni 1        | CSS #4        |
+|  7   | 8. október    | node.js, NPM, pakkar, Sass og stylelint                     | Hópverkefni 1        | CSS #4        |
 |  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll          |                      |               |
 |  9   | 22. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar  | JS #1                | Hópverkefni 1 |
 |  10  | 29. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun        | JS #2                | JS #1         |
@@ -55,7 +55,6 @@ Sjá Uglu.
   - [Resilient Web Design, chapter 3: Visions](https://resilientwebdesign.com/chapter3/)
 * Vika #7
   - [Kafli 2.26 Tæki & tól](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#226-t%C3%A6ki--t%C3%B3l)
-  - [Kafli 2.28 CSS Grid](https://github.com/vefforritun/book/blob/master/chapters/02.css.md#228-css-grid)
 * Vika #8
   - [Eloquent JavaScript, kafli 1: Values, Types, and Operators](https://eloquentjavascript.net/01_values.html)
   - [Eloquent JavaScript, kafli 2: Program Structure](https://eloquentjavascript.net/02_program_structure.html)
@@ -95,8 +94,8 @@ Sjá Uglu.
   - Flexbox, CSS í stærri verkefnum. Git, GitHub
 * [Fyrirlestur 6, 1. október 2018](fyrirlestrar/06/)
   - Skalanlegir vefir, kvikun, hönnun
-* Fyrirlestur 7, 8. október 2018
-  - CSS grid. NPM, pakkar, Sass og stylelint
+* [Fyrirlestur 7, 8. október 2018](fyrirlestrar/07/)
+  - node.js, NPM, pakkar, Sass og stylelint
 * Fyrirlestur 8, 15. október 2018
   - JavaScript, breytur, gagnatög, stýriskipanir, föll
 * Fyrirlestur 9, 22. október 2018
