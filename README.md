@@ -65,7 +65,7 @@ Sjá Uglu.
   - [Eloquent JavaScript, kafli 8: Bugs and Errors](https://eloquentjavascript.net/08_error.html)
   - [Eloquent JavaScript, kafli 9: Regular Expressions](https://eloquentjavascript.net/09_regexp.html)
   - [Eloquent JavaScript, kafli 10: Modules](https://eloquentjavascript.net/10_modules.html)
-  - [Resilient Web Design, chapter 5: Layers](https://resilientwebdesign.com/chapter5/)+
+  - [Resilient Web Design, chapter 5: Layers](https://resilientwebdesign.com/chapter5/)
 * Vika #10
   - [Eloquent JavaScript, kafli 11: Asynchronous Programming](https://eloquentjavascript.net/11_async.html)
   - [Eloquent JavaScript, kafli 13: JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
