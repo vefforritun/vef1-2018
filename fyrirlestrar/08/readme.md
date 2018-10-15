@@ -1,10 +1,10 @@
 # Fyrirlestur 8, 15. október 2017
 
-[Fyrirlestur 8.1: JavaScript gildi, týpur og virkjar](08.1.javascript.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 8.1: JavaScript gildi, týpur og virkjar](08.1.javascript.md), [vídeó](https://youtu.be/sZPtLHPnj74)
 
-[Fyrirlestur 8.2: JavaScript forrit](08.2.programs.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 8.2: JavaScript forrit](08.2.programs.md), [vídeó](https://youtu.be/VSOQrRXyg28)
 
-[Fyrirlestur 8.3: JavaScript föll](08.3.functions.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 8.3: JavaScript föll](08.3.functions.md), [vídeó](https://youtu.be/zqPVndkKuoE)
 
 ## Dæmi
 
