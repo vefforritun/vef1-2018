@@ -96,7 +96,7 @@ Sjá Uglu.
   - Skalanlegir vefir, kvikun, hönnun
 * [Fyrirlestur 7, 8. október 2018](fyrirlestrar/07/)
   - node.js, NPM, pakkar, Sass og stylelint
-* Fyrirlestur 8, 15. október 2018
+* [Fyrirlestur 8, 15. október 2018](fyrirlestrar/08/)
   - JavaScript, breytur, gagnatög, stýriskipanir, föll
 * Fyrirlestur 9, 22. október 2018
   - Fylki og hlutir. Villumeðhöndlun, reglulegar segðir, einingar
