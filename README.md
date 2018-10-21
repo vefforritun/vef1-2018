@@ -98,7 +98,7 @@ Sjá Uglu.
   - node.js, NPM, pakkar, Sass og stylelint
 * [Fyrirlestur 8, 15. október 2018](fyrirlestrar/08/)
   - JavaScript, breytur, gagnatög, stýriskipanir, föll
-* Fyrirlestur 9, 22. október 2018
+* [Fyrirlestur 9, 22. október 2018](fyrirlestrar/09/)
   - Fylki og hlutir. Villumeðhöndlun, reglulegar segðir, einingar
 * Fyrirlestur 10, 29. október 2018
   - Forritun á vef, DOM og atburðir, ósamstillt forritun
@@ -129,7 +129,7 @@ Sjá Uglu.
 * [Verkefni 6](https://github.com/vefforritun/vef1-2018-v6), sett fyrir 1. október, skilist 9. október
   - [Kynning í fyrirlestri](https://youtu.be/y3DIwy-ZSvA)
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v6-synilausn)
-* Verkefni 7, sett fyrir 22. október, skilist 30. október
+* [Verkefni 7](https://github.com/vefforritun/vef1-2018-v7), sett fyrir 22. október, skilist 30. október
 * Verkefni 8, sett fyrir 29. október, skilist 6. nóvember
 * Verkefni 9, sett fyrir 5. nóvember, skilist 13. nóvember
 * Verkefni 10, sett fyrir 12. nóvember, skilist 20. nóvember
