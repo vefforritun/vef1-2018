@@ -11,7 +11,7 @@
  *   - Fyrsti kláraðist í tveim ágiskunum
  *   - Seinni kláraðist í þrem ágiskunum
  */
-var games = [];
+const GAMES = [];
 
 /**
  * Byrjar leikinn okkar með því að kalla í play().
@@ -20,7 +20,13 @@ var games = [];
  * Ef ýtt er á "cancel" er niðurstöðum leikja skilað með getResults() og alert()
  */
 function start() {
-  play();
+  alert('Velkomin í leikinn. Giskaðu á tölu');
+
+  do {
+    play();
+  } while (confirm('Spila annan?'));
+
+  alert(getResults());
 }
 
 /**
@@ -39,7 +45,30 @@ function start() {
  */
 function play() {
   // næsta lína kastar villu sem má sjá í "console" undir DevTools
-  var random = randomNumber(
+  const random = randomNumber(100);
+  console.log(random);
+
+  let correct = false;
+  let attempts = 0;
+
+  do {
+    const input = prompt('Giskaðu á tölu milli 0-100');
+
+    if (input === null) {
+      break;
+    }
+
+    const parsedInput = parseGuess(input);
+    correct = parsedInput === random;
+
+    alert(getResponse(parsedInput, random));
+    attempts++;
+  } while (!correct);
+
+  GAMES.push(attempts);
+  alert(`Rétt í ${attempts} ágiskunum`);
+
+  return true;
 }
 
 /**
@@ -51,6 +80,13 @@ function play() {
  * Ef enginn leikur var spilaður er "Þú spilaðir engan leik" skilað.
  */
 function getResults() {
+  const played = GAMES.length;
+  const average = calculateAverage();
+
+  const result = `Þú spilaðir ${played} leikir
+Meðalfjöldi ágiskana var ${average.toFixed(2)}`;
+
+  return result;
 }
 
 /**
@@ -63,6 +99,16 @@ function getResults() {
  * Þarf að útfæra með lykkju.
  */
 function calculateAverage() {
+  const played = GAMES.length;
+
+  let sum = 0;
+  for (let game of GAMES) {
+    sum += game;
+  }˚
+
+  const average = sum / played;
+
+  return average;
 }
 
 /**
@@ -70,6 +116,13 @@ function calculateAverage() {
  * Ef ekki er hægt að ná tölu úr input er null skilað.
  */
 function parseGuess(input) {
+  const parsed = parseInt(input, 10);
+
+  if (isNaN(parsed)) {
+    return null;
+  }
+
+  return parsed;
 }
 
 /**
@@ -88,7 +141,19 @@ function parseGuess(input) {
  * Math.abs skilar algildi tölu: |a| = Math.abs(a)
  */
 function getResponse(guess, correct) {
-  return 'Ekki rétt';
+  const diff = Math.abs(correct - guess);
+
+  if (guess < 0 || isNaN(guess)) {
+    return 'Ekki rétt';
+  }
+
+  if (diff < 5) {
+    return 'Mjög nálægt';
+  } else if (diff < 10) {
+    return 'Nálægt';
+  } else {
+    return 'Mjög langt frá';
+  }
 }
 
 /**

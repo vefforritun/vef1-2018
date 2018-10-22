@@ -1,30 +1,34 @@
 # Fyrirlestur 8, 22. október 2017
 
-[Fyrirlestur 9.1: JavaScript array og objects](09.1.array.objects.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 9.1: Array og objects](09.1.array.objects.md), [vídeó](https://youtu.be/RMiKD3vYKD0)
 
-[Fyrirlestur 9.2: JavaScript villur og regex](09.2.error.regex.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 9.2: Villur og regex](09.2.error.regex.md), [vídeó](https://youtu.be/ct_bP2hN5Qk)
 
-[Fyrirlestur 9.3: JavaScript einingar](09.3.modules.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 9.3: Einingar](09.3.modules.md), [vídeó](https://youtu.be/XSf3uv4FjD8)
 
-[Fyrirlestur 9.4: Dæmi](09.4.daemi.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 9.4: Dæmi](09.4.daemi.md), [vídeó](https://youtu.be/p4cRZujt354)
 
 ## Dæmi
 
 * Array & objects
-  - [](daemi/array.objects/.js)
-  - [](daemi/array.objects/.js)
-  - [](daemi/array.objects/.js)
+  - [array](daemi/array.objects/array.js)
+  - [destructuring](daemi/array.objects/destructuring.js)
+  - [object-properties](daemi/array.objects/object-properties.js)
+  - [object](daemi/array.objects/object.js)
+  - [rest](daemi/array.objects/rest.js)
+  - [spread](daemi/array.objects/spread.js)
+  - [typeof-array](daemi/array.objects/typeof-array.js)
 * Errors
-  - [](daemi/errors/.js)
-  - [](daemi/errors/.js)
-  - [](daemi/errors/.js)
+  - [catch](daemi/errors/catch.js)
+  - [errors](daemi/errors/errors.js)
+  - [finally](daemi/errors/finally.js)
+  - [strict](daemi/errors/strict.js)
+  - [throw](daemi/errors/throw.js)
 * Regex
-  - [](daemi/regex/.js)
-  - [](daemi/regex/.js)
-  - [](daemi/regex/.js)
+  - [examples](daemi/regex/examples.js)
+  - [replace](daemi/regex/replace.js)
 * Modules
-  - [](daemi/modules/.js)
-  - [](daemi/modules/.js)
-  - [](daemi/modules/.js)
-* Dæmi
-  - [anon](daemi/daemi/)
+  - [calculator](daemi/modules/calculator.js)
+  - [modules](daemi/modules/modules.js)
+  - [no-modules](daemi/modules/no-modules.js)
+* [Sýnidæmi](daemi/synidaemi/)

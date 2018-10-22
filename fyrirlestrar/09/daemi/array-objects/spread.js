@@ -1,6 +1,6 @@
 function avg(...rest) {
   let sum = 0;
-  for (i of rest) {
+  for (let i of rest) {
     sum += i;
   }
   return sum / rest.length;
