@@ -1,4 +1,4 @@
-# Fyrirlestur 3, 10. september 2017
+# Fyrirlestur 3, 10. september 2018
 
 [Fyrirlestur 3.1: CSS #1 – Málfræði](03.1.css.md), [vídeó](https://youtu.be/rBFdRVWhiis)
 

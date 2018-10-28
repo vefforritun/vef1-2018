@@ -1,4 +1,4 @@
-# Fyrirlestur 2, 3. september 2017
+# Fyrirlestur 2, 3. september 2018
 
 [Fyrirlestur 2.1: HTML #2](02.1.html.md), [vídeó](https://youtu.be/QdH7hL9sMpE)
 [Fyrirlestur 2.2: HTML #3](02.2.html.md), [vídeó](https://youtu.be/lrPqqyeYM4k)

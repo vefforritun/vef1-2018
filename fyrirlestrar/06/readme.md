@@ -1,4 +1,4 @@
-# Fyrirlestur 6, 1. október 2017
+# Fyrirlestur 6, 1. október 2018
 
 [Fyrirlestur 6.1: Skalanleg vefhönnun](06.1.responsive.md), [vídeó](https://youtu.be/2RHbdRjtU9w)
 

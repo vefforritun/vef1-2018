@@ -1,4 +1,4 @@
-# Fyrirlestur 8, 15. október 2017
+# Fyrirlestur 8, 15. október 2018
 
 [Fyrirlestur 8.1: JavaScript gildi, týpur og virkjar](08.1.javascript.md), [vídeó](https://youtu.be/sZPtLHPnj74)
 

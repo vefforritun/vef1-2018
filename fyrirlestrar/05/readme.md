@@ -1,4 +1,4 @@
-# Fyrirlestur 5, 24. september 2017
+# Fyrirlestur 5, 24. september 2018
 
 [Fyrirlestur 5.1: CSS – Flexbox og viðmiðunarreglur](05.1.flexbox.md), [vídeó](https://youtu.be/-tyW_8dwpq8)
 
