@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/** textar **/
+
+.texts {
+  width: 100%;
+  padding: 20px;
+}
+
+.text {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.text .uppercase {
+  text-transform: uppercase;
+}
+
+.text.inverted {
+  background-color: #000;
+  color: #fff;
+}
+
+/** form **/
+
+.form {
+  width: 100%;
+  padding: 20px;
+}
+
+.form p {
+  margin-bottom: 20px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  width: 100%;
+}
+
+.field input {
+  width: 100%;
+}
+
+.field textarea {
+  width: 100%;
+  min-height: 80px;
+}
+
+.field.checkbox input {
+  width: auto;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.error {
+  margin-bottom: 20px;
+  color: red;
+}
+
+button {
+  padding: 5px;
+}
+
+/** responsive **/
+
+@media (min-width: 600px) {
+  main {
+    flex-direction: row;
+  }
+
+  .texts {
+    width: 75%;
+  }
+
+  .form {
+    width: 25%;
+  }
+}

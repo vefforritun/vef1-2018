@@ -40,3 +40,4 @@
   - [form](daemi/events/form.html)
   - [scroll](daemi/events/scroll.html)
   - [timeout](daemi/events/timeout.html)
+* [Sýnidæmi](daemi/synidaemi)

@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="grid" lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Verkefni 8</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <div class="texts">
+        <!--
+        <div class="text">
+          <h2>Fyrirsögn</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+
+        <div class="text">
+          <h2 class="uppercase">Fyrirsögn</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+
+        <div class="text inverted">
+          <h2>Fyrirsögn</h2>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        -->
+      </div>
+      <div class="form">
+        <form id="form">
+          <p>
+            Bæta við texta, fyrirsögn má ekki vera tóm eða yfir 100 stafi löng.
+            Texti má ekki vera tómur eða yfir 1.000 stafa langur.
+          </p>
+          <div class="field heading">
+            <label for="heading">Fyrirsögn:</label>
+            <input type="text" id="heading">
+          </div>
+
+          <div class="field textarea">
+            <label for="text">Texti:</label>
+            <textarea id="text"></textarea>
+          </div>
+
+          <div class="field checkbox">
+            <label>
+              <input type="checkbox" class="uppercase"> Fyrirsögn í hástöfum
+            </label>
+          </div>
+
+          <div class="field checkbox">
+            <label>
+              <input type="checkbox" class="invert"> Snúa við litum
+            </label>
+          </div>
+
+          <div class="error"></div>
+
+          <button>Bæta við</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
