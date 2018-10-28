@@ -100,7 +100,7 @@ Sjá Uglu.
   - JavaScript, breytur, gagnatög, stýriskipanir, föll
 * [Fyrirlestur 9, 22. október 2018](fyrirlestrar/09/)
   - Fylki og hlutir. Villumeðhöndlun, reglulegar segðir, einingar
-* Fyrirlestur 10, 29. október 2018
+* [Fyrirlestur 10, 29. október 2018](fyrirlestrar/10/)
   - Forritun á vef, DOM og atburðir, ósamstillt forritun
 * Fyrirlestur 11, 5. nóvember 2018
   - HTTP, Ajax, JavaScript og form, eslint
@@ -130,6 +130,7 @@ Sjá Uglu.
   - [Kynning í fyrirlestri](https://youtu.be/y3DIwy-ZSvA)
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v6-synilausn)
 * [Verkefni 7](https://github.com/vefforritun/vef1-2018-v7), sett fyrir 22. október, skilist 30. október
+  - [Kynning í fyrirlestri](https://youtu.be/wr2FVUwpVe4)
 * Verkefni 8, sett fyrir 29. október, skilist 6. nóvember
 * Verkefni 9, sett fyrir 5. nóvember, skilist 13. nóvember
 * Verkefni 10, sett fyrir 12. nóvember, skilist 20. nóvember

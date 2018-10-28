@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Ýtt á takka – DOMContentLoaded útgáfa</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <script>
+    document.addEventListener('DOMContentLoaded', setup);
+
+    function setup() {
+      const element = document.querySelector('button');
+      element.addEventListener('click', () => {
+        console.log('Ýtt á takka!');
+      });
+    }
+    </script>
+
+    <button>Takki</button>
+  </body>
+</html>

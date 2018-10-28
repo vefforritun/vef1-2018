@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <style>
+    body {
+      background-color: #fff;
+      color: #000;
+    }
+
+    body.off {
+      background-color: #000;
+      color: #fff;
+    }
+    </style>
+  </head>
+  <body>
+    <form>
+      <textarea name="text" class="textarea"></textarea>
+
+      <label>
+        Kveikjari: <input name="checkbox" type="checkbox" checked class="checkbox">
+      </label>
+
+      <label>
+        A <input type="radio" name="radio" value="A">
+      </label>
+      <label>
+        B <input type="radio" name="radio" value="B">
+      </label>
+      <label>
+        C <input type="radio" name="radio" value="C">
+      </label>
+
+      <button>Senda!</button>
+    </form>
+
+    <script>
+    const textarea = document.querySelector('.textarea');
+    textarea.addEventListener('input', function () {
+      console.log('textarea inniheldur:', textarea.value);
+    })
+
+    const checkbox = document.querySelector('.checkbox');
+    checkbox.addEventListener('change', function () {
+      document.body.classList.toggle('off');
+    });
+
+    const radios = document.querySelectorAll('input[type=radio]');
+
+    function radioChanged(e) {
+      console.log('Radio value = ', e.target.value);
+    }
+    for (let i = 0; i < radios.length; i++) {
+      radios[i].addEventListener('change', radioChanged);
+    }
+
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const data = new FormData(form);
+      console.log('Form sent með gögnum');
+
+      for (let pair of data.entries()) {
+        console.log(pair[0]+ ', '+ pair[1]);
+      }
+    })
+    </script>
+  </body>
+</html>

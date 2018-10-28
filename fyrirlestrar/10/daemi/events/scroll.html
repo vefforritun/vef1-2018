@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Skrunað</title>
+    <style>
+    body {
+      min-height: 500vh;
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 1em;
+      width: 0;
+
+      background-color: red;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="progress"></div>
+
+    <script>
+    const bar = document.querySelector('.progress');
+
+    window.addEventListener('scroll', () => {
+      // að biðja window um víddir getur verið kostnaðarsamt, þarf að passa!
+      const max = document.body.scrollHeight - window.innerHeight;
+      const percent = (window.pageYOffset / max) * 100;
+      bar.style.width = `${percent}%`;
+    });
+    </script>
+  </body>
+</html>

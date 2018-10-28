@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Upplýsingar úr atburð</title>
+    <style>
+    div {
+      background-color: lightblue;
+      padding: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="text">
+      <a href="http://hi.is">hi.is</a>
+    </div>
+
+    <script>
+    const div = document.querySelector('div');
+    const input = document.querySelector('input');
+    const a  = document.querySelector('a');
+
+    div.addEventListener('click', (e) => {
+      const { target } = e;
+      console.log('smellt innan div', 'target = ', target);
+    });
+
+    input.addEventListener('click', (e) => {
+      const { target } = e;
+      console.log('smellt innan input', 'target = ', target);
+
+      // ef við viljum að atburður fljóti ekki upp köllum við í `stopPropagation`
+      e.stopPropagation();
+    });
+
+    input.addEventListener('keyup', (e) => {
+      const { keyCode, key } = e;
+      console.log(`keyCode = ${keyCode}, key = ${key}`, e);
+    })
+
+    a.addEventListener('click', (e) => {
+      // ef við viljum ekki að sjálfgefna hegðun keyri, köllum við í `preventDefaul`
+      e.preventDefault();
+
+      console.log('neibb');
+    })
+    </script>
+  </body>
+</html>

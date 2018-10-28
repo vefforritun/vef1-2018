@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Stærðir</title>
+    <style>
+    body {
+      min-height: 200vh;
+      min-width: 200vw;
+    }
+
+    div {
+      margin: 50px;
+      padding: 20px;
+      border: 10px solid green;
+
+      width: 300px;
+      height: 200px;
+
+      background-color: blue;
+    }
+
+    div.border {
+      box-sizing: border-box;
+    }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div class="border"></div>
+
+    <script>
+    const div = document.querySelector('div');
+    const borderDiv = document.querySelector('div.border');
+
+    console.log('Div með box-sizing: content-box;')
+    sizes(div);
+    console.log('Div með box-sizing: border-box;')
+    sizes(borderDiv);
+    console.log('Skroll:');
+    scroll(window);
+
+    function sizes(div) {
+      const { offsetHeight, offsetWidth, clientHeight, clientWidth } = div;
+
+      console.log(`Offset: ${offsetWidth}×${offsetHeight}`);
+      console.log(`Client: ${clientWidth}×${clientHeight}`);
+
+      const { top, right, bottom, left } = div.getBoundingClientRect();
+
+      console.log(`Bounding rect, top=${top}, right=${right}, bottom=${bottom}, left=${left}`)
+    }
+
+    function scroll(window) {
+      const { pageXOffset, pageYOffset } = window;
+
+      console.log(`Scroll, x=${pageXOffset}, y=${pageYOffset}`);
+    }
+
+    </script>
+  </body>
+</html>

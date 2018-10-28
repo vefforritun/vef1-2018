@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Attribute</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div data-foo="bar"></div>
+
+    <script>
+    const input = document.createElement('input');
+    input.setAttribute('type', 'text');
+    input.setAttribute('id', 'searchField');
+    input.setAttribute('required', true);
+    input.setAttribute('value', 'foo');
+    document.body.appendChild(input);
+
+    function inputValue(input) {
+      console.log('input.getAttribute(\'value\') = ', input.getAttribute('value'));
+      console.log('input.value :', input.value);
+      input.value; // "foobar"
+    }
+
+    inputValue(input);
+
+    </script>
+  </body>
+</html>
+
+
+

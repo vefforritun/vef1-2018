@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript og CSS</title>
+    <style>
+    .box {
+      border: 2px solid #000;
+      padding: 20px;
+      background-color: lightblue;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="first">Box #1</div>
+    <div class="second">Box #2</div>
+
+    <script>
+    const box1 = document.querySelector('.first');
+    const box2 = document.querySelector('.second');
+
+    box1.style.border = '2px solid #000';
+    box1.style.padding = '20px';
+    box1.style.backgroundColor = 'lightblue';
+
+    box2.classList.add('box');
+    </script>
+  </body>
+</html>

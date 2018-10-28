@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Breyta elementum</title>
+  </head>
+
+  <body>
+    <p>Fyrsta málsgrein</p>
+    <p>Önnur málsgrein</p>
+    <p>Þriðja málsgrein</p>
+    <p>Fjórða málsgrein</p>
+
+    <script>
+    const first = document.querySelector('p:nth-child(1)');
+    const second = document.querySelector('p:nth-child(2)');
+    const third = document.querySelector('p:nth-child(3)');
+    const fourth = document.querySelector('p:nth-child(4)');
+
+    document.body.insertBefore(third, first);
+    first.appendChild(second);
+    document.body.removeChild(fourth);
+    </script>
+  </body>
+</html>

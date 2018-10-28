@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Debounce</title>
+  </head>
+  <body>
+    <textarea cols="40" rows="10"></textarea>
+
+    <script>
+    const textarea = document.querySelector("textarea");
+    let timeout;
+    textarea.addEventListener("keydown", () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        console.log("You stopped typing.");
+      }, 500);
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Ýtt á takka</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <button>Takki</button>
+
+    <button class="once">Takki tvö</button>
+
+    <script>
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+      console.log('Button clicked.');
+    });
+
+    button.addEventListener('click', () => {
+      console.log('You knocked?');
+    });
+
+    const onceButton = document.querySelector('.once');
+
+    // Þurfum að hafa vísun í fallið til að geta fjarlægt það
+    function once () {
+      console.log('Þetta keyrir einu sinni.');
+      onceButton.removeEventListener('click', once);
+    }
+    onceButton.addEventListener('click', once);
+
+    </script>
+  </body>
+</html>

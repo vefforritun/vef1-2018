@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My home page</title>
+  </head>
+  <body>
+    <h1>My home page</h1>
+    <p>Hello, I am Marijn and this is my home page.</p>
+    <p>I also wrote a book! Read it
+      <a href="http://eloquentjavascript.net">here</a>.
+    </p>
+    <script>
+    function walk(node) {
+      const {
+        childNodes, nodeType, nodeValue
+      } = node;
+
+      if (nodeType === Node.ELEMENT_NODE) {
+        for (let child of Array.from(childNodes)) {
+          walk(child);
+        }
+      } else if (nodeType === Node.TEXT_NODE) {
+        console.log(`Textanóða: ${nodeValue}`);
+      }
+    }
+
+    // document.body vísar beint í body element
+    walk(document.body);
+
+    const bodyChildNodes = document.body.childNodes;
+    console.log('bodyChildNodes', bodyChildNodes);
+
+    // ef við breytum `bodyChildNodes` mun breytan uppfærast
+    // án þess að við gerum nokkuð
+    </script>
+  </body>
+</html>

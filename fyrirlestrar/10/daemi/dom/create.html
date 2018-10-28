@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Búa til element</title>
+  </head>
+
+  <body>
+    <!-- hér er ekkert! -->
+
+    <script>
+    const form = document.createElement('form');
+    form.setAttribute('action', '/');
+    form.setAttribute('method', 'get');
+
+    const label = document.createElement('label');
+    label.setAttribute('for', 'searchField');
+    label.appendChild(document.createTextNode('Leita:'));
+
+    const input = document.createElement('input');
+    input.setAttribute('type', 'text');
+    input.setAttribute('id', 'searchField');
+    input.setAttribute('required', true);
+
+    const button = document.createElement('button');
+    button.appendChild(document.createTextNode('Leita'));
+
+    form.appendChild(label);
+    form.appendChild(input);
+    form.appendChild(button);
+
+    document.body.appendChild(form);
+    </script>
+  </body>
+</html>

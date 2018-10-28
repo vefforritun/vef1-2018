@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Gögn á elementi</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div data-foo="bar"></div>
+
+    <script>
+    const div = document.querySelector('div');
+    console.log(div.dataset.foo);
+
+    div.dataset.bar = 'foo';
+    </script>
+  </body>
+</html>

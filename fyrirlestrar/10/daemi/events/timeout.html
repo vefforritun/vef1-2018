@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Timeout og interval</title>
+    <style>
+    body {
+      background-color: #fff;
+      color: #000;
+      transition:
+        background-color 1.5s ease-in-out,
+        color 1.5s ease-in-out;
+    }
+    </style>
+  </head>
+  <body>
+    <div>Byrja að blikka aftir 1 sek</div>
+
+    <script>
+    var timeout = window.setTimeout(start, 1000);
+    var interval;
+    var dark = false;
+
+    function blink() {
+      console.log('blink')
+      var bg = dark ? '#fff' : '#000';
+      var color = dark ? '#000' : '#fff';
+      dark = !dark;
+
+      document.body.style.backgroundColor = bg;
+      document.body.style.color = color;
+    }
+
+    function start() {
+      var div = document.querySelector('div');
+
+      // fjarlægja texta
+      div.removeChild(div.childNodes[0]);
+
+      // setja inn nýjan texta
+      div.appendChild(document.createTextNode('Blikka! Hætta með ESC'));
+
+      // byrja að blikka
+      interval = window.setInterval(blink, 1500);
+    }
+
+    // binda ESC til að hætta að blikka
+    var ESC_KEY_CODE = 27;
+    document.addEventListener('keyup', function (e) {
+      if (e.keyCode === ESC_KEY_CODE) {
+        window.clearInterval(interval);
+      }
+    });
+
+    </script>
+  </body>
+</html>

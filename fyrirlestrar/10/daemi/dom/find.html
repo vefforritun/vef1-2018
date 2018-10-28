@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Leitað að elementum</title>
+  </head>
+
+  <body>
+    <p id="foo">
+      <span>halló</span>
+      <span class="world">heimur</span>
+    </p>
+
+    <p class="world">
+      <span>halló</span>
+      <span>heimur</span>
+    </p>
+
+    <div class="foo">
+      <p>
+        <span>Foo</span>
+        <span class="foo">bar</span>
+      </p>
+    </div>
+
+    <div class="bar">
+      <p>
+        <span>Bar</span>
+        <span class="bar">baz</span>
+      </p>
+    </div>
+
+    <script>
+    // Finnum element eftir id
+    const foo = document.getElementById('foo');
+    console.log('foo = ', foo);
+
+    // Finnum eftir tag name
+    const spans = document.getElementsByTagName('span');
+    console.log('spans = ', spans);
+    // Ef það bætist við span á síðunni, mun spans einnig hafa vísun í þau
+
+    // Finnum eftir className
+    const classNames = document.getElementsByClassName('foo');
+    console.log('classNames = ', classNames);
+    // Ef það bætist við element með class foo mun einnig vera vísað í það
+
+    // Finnum ákveðið með CSS selector -- leitar eftir dýpt fyrst!
+    const querySelector = document.querySelector('.world');
+    console.log('querySelector', querySelector);
+
+    // Finnum mörg element eftir CSS selector
+    const querySelectorAll = document.querySelectorAll('p');
+    console.log('querySelectorAll', querySelectorAll);
+
+    // Getum blandað saman og leitað í pörtum trés
+    const specific = document
+      .getElementById('foo')
+      .querySelectorAll('.world')
+    console.log('specific = ', specific);
+    </script>
+  </body>
+</html>

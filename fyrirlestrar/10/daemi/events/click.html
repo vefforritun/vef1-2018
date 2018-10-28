@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Upplýsingar um atburð</title>
+  </head>
+  <body>
+    <button>Takki</button>
+    <script>
+    const button = document.querySelector('button');
+    button.addEventListener('mousedown', event => {
+      if (event.button == 0) {
+        console.log('Left button');
+      } else if (event.button == 1) {
+        console.log('Middle button');
+      } else if (event.button == 2) {
+        console.log('Right button');
+      }
+    });
+    </script>
+  </body>
+</html>
