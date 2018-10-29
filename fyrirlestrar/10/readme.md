@@ -1,10 +1,10 @@
 # Fyrirlestur 10, 29. október 2018
 
-[Fyrirlestur 10.1: Ósamstillt forritun](10.1.async.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 10.1: Ósamstillt forritun](10.1.async.md), [vídeó](https://youtu.be/kdlmV7rg-I8)
 
-[Fyrirlestur 10.2: DOM & vafrinn](10.2.browser-dom.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 10.2: DOM & vafrinn](10.2.browser-dom.md), [vídeó](https://youtu.be/wVCUH4vvVTc)
 
-[Fyrirlestur 10.3: Atburðir](10.3.events.md), [vídeó](https://youtu.be/)
+[Fyrirlestur 10.3: Atburðir](10.3.events.md), [vídeó](https://youtu.be/zfaBXdCZBFs)
 
 ## Dæmi
 

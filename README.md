@@ -132,6 +132,7 @@ Sjá Uglu.
 * [Verkefni 7](https://github.com/vefforritun/vef1-2018-v7), sett fyrir 22. október, skilist 30. október
   - [Kynning í fyrirlestri](https://youtu.be/wr2FVUwpVe4)
 * [Verkefni 8, sett fyrir 29. október, skilist 6. nóvember](https://github.com/vefforritun/vef1-2018-v8)
+  - [Kynning í fyrirlestri](https://youtu.be/3ssROhnC2AI)
 * Verkefni 9, sett fyrir 5. nóvember, skilist 13. nóvember
 * Verkefni 10, sett fyrir 12. nóvember, skilist 20. nóvember
 
