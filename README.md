@@ -22,7 +22,7 @@ Sjá Uglu.
 |  8   | 15. október   | JavaScript, breytur, gagnatög, stýriskipanir, föll          |                      |               |
 |  9   | 22. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar  | JS #1                | Hópverkefni 1 |
 |  10  | 29. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun        | JS #2                | JS #1         |
-|  11  | 5. nóvember   | HTTP, Ajax, JavaScript og form, eslint                      | JS #3, Hópverkefni 2 | JS #2         |
+|  11  | 5. nóvember   | HTTP og form, Ajax, eslint, unobtrusive JavaScript          | JS #3, Hópverkefni 2 | JS #2         |
 |  12  | 12. nóvember  | Hlutir, prótótýpur, HTML5 og JavaScript                     | JS #4                | JS #3         |
 |  13  | 19. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða                   |                      | JS #4         |
 |  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf             |                      | Hópverkefni 2 |
@@ -102,8 +102,8 @@ Sjá Uglu.
   - Fylki og hlutir. Villumeðhöndlun, reglulegar segðir, einingar
 * [Fyrirlestur 10, 29. október 2018](fyrirlestrar/10/)
   - Forritun á vef, DOM og atburðir, ósamstillt forritun
-* Fyrirlestur 11, 5. nóvember 2018
-  - HTTP, Ajax, JavaScript og form, eslint
+* [Fyrirlestur 11, 5. nóvember 2018](fyrirlestrar/11/)
+  - HTTP og form, Ajax, eslint, unobtrusive JavaScript
 * Fyrirlestur 12, 12. nóvember 2018
   - Hlutir, prótótýpur, HTML5 og JavaScript
 * Fyrirlestur 13, 19. nóvember 2018
@@ -131,16 +131,18 @@ Sjá Uglu.
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v6-synilausn)
 * [Verkefni 7](https://github.com/vefforritun/vef1-2018-v7), sett fyrir 22. október, skilist 30. október
   - [Kynning í fyrirlestri](https://youtu.be/wr2FVUwpVe4)
-* [Verkefni 8, sett fyrir 29. október, skilist 6. nóvember](https://github.com/vefforritun/vef1-2018-v8)
+  - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v7-synilausn)
+* [Verkefni 8](https://github.com/vefforritun/vef1-2018-v8), sett fyrir 29. október, skilist 6. nóvember
   - [Kynning í fyrirlestri](https://youtu.be/3ssROhnC2AI)
-* Verkefni 9, sett fyrir 5. nóvember, skilist 13. nóvember
+* [Verkefni 9](https://github.com/vefforritun/vef1-2018-v9), sett fyrir 5. nóvember, skilist 13. nóvember
 * Verkefni 10, sett fyrir 12. nóvember, skilist 20. nóvember
 
 ## Hópverkefni
 
 * [Hópverkefni 1](https://github.com/vefforritun/vef1-2018-h1), sett fyrir 8. október, skilist 26. október
   - [Kynning í fyrirlestri](https://youtu.be/B66h9ZPTtMs)
-* Hópverkefni 2, sett fyrir 5. nóvember, skilist 27. nóvember
+  - [Sýnilausn](https://github.com/vefforritun/vef1-2018-h1-synilausn)
+* [Hópverkefni 2](https://github.com/vefforritun/vef1-2018-h2), sett fyrir 5. nóvember, skilist 27. nóvember
 
 ## Lokapróf
 
