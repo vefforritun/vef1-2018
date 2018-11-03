@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>xhr</title>
+  </head>
+
+  <body>
+    <button>Sækja gögn</button>
+    <div>
+      Engin gögn.
+    </div>
+    <script>
+
+    // Ekki ætti að nota þetta dæmi, heldur það sem er í fetch.html
+
+    const URL = 'http://apis.is/concerts';
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const button = document.querySelector('button');
+      button.addEventListener('click', fetchData);
+    });
+
+
+    function empty(el) {
+      while (el.firstChild) {
+        el.removeChild(el.firstChild);
+      }
+    }
+
+    function fetchData() {
+      const container = document.querySelector('div');
+
+      empty(container);
+      container.appendChild(document.createTextNode('Sæki gögn...'));
+
+      const request = new XMLHttpRequest();
+
+      request.open('GET', URL, true);
+
+      request.onload = function() {
+        let error = false;
+        if (request.status >= 200 && request.status < 400) {
+          let data;
+          try {
+            data = JSON.parse(request.response);
+          } catch (e) {
+            error = true;
+            console.error('Error parsing JSON', e);
+          }
+        } else {
+          error = true;
+          console.error('Error fetching', request);
+        }
+
+        if (error) {
+          empty(container);
+          container.appendChild(document.createTextNode('Villa kom upp'));
+        } else {
+          show(data.results);
+        }
+      };
+
+      request.onerror = function(e) {
+        console.error('Villa', e);
+        empty(container);
+        container.appendChild(document.createTextNode('Villa kom upp'));
+      };
+
+      request.send();
+    }
+
+    function show(data) {
+      const container = document.querySelector('div');
+
+      empty(container);
+
+      const ul = document.createElement('ul');
+      console.log(data);
+      for (let item of data) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(item.eventDateName));
+        ul.appendChild(li);
+      }
+
+      container.appendChild(ul);
+    }
+    </script>
+  </body>
+</html>

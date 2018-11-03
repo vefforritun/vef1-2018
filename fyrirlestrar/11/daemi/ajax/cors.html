@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>xhr</title>
+  </head>
+
+  <body>
+    <script>
+    const url = 'https://ugla.hi.is/Proftafla/View/ajax.php?sid=2027&a=getProfSvids&proftaflaID=47&svidID=5&notaVinnuToflu=0';
+
+    const request = new XMLHttpRequest();
+
+    request.open('GET', url, true);
+    request.onload = function() {
+      console.log(request);
+    };
+
+    request.onerror = function() {
+      console.error('Villa!', request);
+    };
+
+    request.send();
+    </script>
+  </body>
+</html>

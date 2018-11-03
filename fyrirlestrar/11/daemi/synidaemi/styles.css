@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button,
+input {
+  font-size: 1em;
+  padding: 5px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 20px;
+}
