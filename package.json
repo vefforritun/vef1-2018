@@ -4,12 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "present": "reveal-md -w"
+    "present": "reveal-md -w",
+    "eslint": "eslint fyrirlestrar/**/*.js",
+    "eslint-markdown": "eslint --ext md .",
+    "markdownlint": "markdownlint fyrirlestrar/**/*.md",
+    "test": "npm run eslint -s && npm run markdownlint -s"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "reveal-md": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-markdown": "^1.0.0-rc.0",
+    "markdownlint": "^0.11.0"
   }
 }
