@@ -1,4 +1,4 @@
-const calculator = function() {
+const calculator = (() => {
   const pi = Math.PI;
   let last = null;
 
@@ -25,8 +25,8 @@ const calculator = function() {
     add,
     subtract,
     last: getLast,
-  }
-}();
+  };
+})();
 
 console.log(calculator.add(1, 1));
 console.log(calculator.add(calculator.last(), 2));

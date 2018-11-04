@@ -17,14 +17,14 @@
     <div>Byrja að blikka aftir 1 sek</div>
 
     <script>
-    var timeout = window.setTimeout(start, 1000);
-    var interval;
-    var dark = false;
+    let interval;
+    let dark = false;
 
     function blink() {
-      console.log('blink')
-      var bg = dark ? '#fff' : '#000';
-      var color = dark ? '#000' : '#fff';
+      console.log('blink');
+
+      const bg = dark ? '#fff' : '#000';
+      const color = dark ? '#000' : '#fff';
       dark = !dark;
 
       document.body.style.backgroundColor = bg;
@@ -32,7 +32,7 @@
     }
 
     function start() {
-      var div = document.querySelector('div');
+      const div = document.querySelector('div');
 
       // fjarlægja texta
       div.removeChild(div.childNodes[0]);
@@ -45,13 +45,14 @@
     }
 
     // binda ESC til að hætta að blikka
-    var ESC_KEY_CODE = 27;
-    document.addEventListener('keyup', function (e) {
+    const ESC_KEY_CODE = 27;
+    document.addEventListener('keyup', (e) => {
       if (e.keyCode === ESC_KEY_CODE) {
         window.clearInterval(interval);
       }
     });
 
+    window.setTimeout(start, 1000);
     </script>
   </body>
 </html>

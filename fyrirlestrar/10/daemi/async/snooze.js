@@ -7,7 +7,7 @@ setTimeout(() => {
       alert('VAKNA!!');
     }, 1000);
   }, 3000);
-}, 5  000);
+}, 5000);
 
 
 function snooze(s, msg, cb) {
@@ -16,7 +16,7 @@ function snooze(s, msg, cb) {
     if (cb) {
       cb();
     }
-  }, 1000*s)
+  }, 1000 * s);
 }
 
 snooze(5, 'Vakna', () => {

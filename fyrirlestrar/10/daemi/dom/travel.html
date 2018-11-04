@@ -12,11 +12,11 @@
     <script>
     function walk(node) {
       const {
-        childNodes, nodeType, nodeValue
+        childNodes, nodeType, nodeValue,
       } = node;
 
       if (nodeType === Node.ELEMENT_NODE) {
-        for (let child of Array.from(childNodes)) {
+        for (const child of Array.from(childNodes)) {
           walk(child);
         }
       } else if (nodeType === Node.TEXT_NODE) {

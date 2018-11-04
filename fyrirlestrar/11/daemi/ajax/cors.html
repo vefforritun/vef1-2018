@@ -12,11 +12,11 @@
     const request = new XMLHttpRequest();
 
     request.open('GET', url, true);
-    request.onload = function() {
+    request.onload = () => {
       console.log(request);
     };
 
-    request.onerror = function() {
+    request.onerror = () => {
       console.error('Villa!', request);
     };
 

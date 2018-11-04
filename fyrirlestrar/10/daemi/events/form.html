@@ -38,34 +38,35 @@
 
     <script>
     const textarea = document.querySelector('.textarea');
-    textarea.addEventListener('input', function () {
+    textarea.addEventListener('input', () => {
       console.log('textarea inniheldur:', textarea.value);
-    })
+    });
 
     const checkbox = document.querySelector('.checkbox');
-    checkbox.addEventListener('change', function () {
+    checkbox.addEventListener('change', () => {
       document.body.classList.toggle('off');
     });
 
     const radios = document.querySelectorAll('input[type=radio]');
 
     function radioChanged(e) {
-      console.log('Radio value = ', e.target.value);
+      console.log(`Radio value = ${e.target.value}`);
     }
+
     for (let i = 0; i < radios.length; i++) {
       radios[i].addEventListener('change', radioChanged);
     }
 
     const form = document.querySelector('form');
-    form.addEventListener('submit', function (e) {
+    form.addEventListener('submit', (e) => {
       e.preventDefault();
       const data = new FormData(form);
       console.log('Form sent með gögnum');
 
-      for (let pair of data.entries()) {
-        console.log(pair[0]+ ', '+ pair[1]);
+      for (const pair of data.entries()) {
+        console.log(`${pair[0]}, ${pair[1]}`);
       }
-    })
+    });
     </script>
   </body>
 </html>

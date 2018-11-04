@@ -19,7 +19,7 @@
     <script>
     const div = document.querySelector('div');
     const input = document.querySelector('input');
-    const a  = document.querySelector('a');
+    const a = document.querySelector('a');
 
     div.addEventListener('click', (e) => {
       const { target } = e;
@@ -37,14 +37,14 @@
     input.addEventListener('keyup', (e) => {
       const { keyCode, key } = e;
       console.log(`keyCode = ${keyCode}, key = ${key}`, e);
-    })
+    });
 
     a.addEventListener('click', (e) => {
       // ef við viljum ekki að sjálfgefna hegðun keyri, köllum við í `preventDefaul`
       e.preventDefault();
 
       console.log('neibb');
-    })
+    });
     </script>
   </body>
 </html>

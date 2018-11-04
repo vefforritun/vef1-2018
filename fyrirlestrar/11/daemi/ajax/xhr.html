@@ -16,16 +16,27 @@
 
     const URL = 'http://apis.is/concerts';
 
-    document.addEventListener('DOMContentLoaded', function () {
-      const button = document.querySelector('button');
-      button.addEventListener('click', fetchData);
-    });
-
-
     function empty(el) {
       while (el.firstChild) {
         el.removeChild(el.firstChild);
       }
+    }
+
+    function show(data) {
+      const container = document.querySelector('div');
+
+      empty(container);
+
+      const ul = document.createElement('ul');
+      console.log(data);
+
+      for (const item of data) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(item.eventDateName));
+        ul.appendChild(li);
+      }
+
+      container.appendChild(ul);
     }
 
     function fetchData() {
@@ -38,10 +49,11 @@
 
       request.open('GET', URL, true);
 
-      request.onload = function() {
+      request.onload = () => {
         let error = false;
+        let data;
+
         if (request.status >= 200 && request.status < 400) {
-          let data;
           try {
             data = JSON.parse(request.response);
           } catch (e) {
@@ -61,7 +73,7 @@
         }
       };
 
-      request.onerror = function(e) {
+      request.onerror = (e) => {
         console.error('Villa', e);
         empty(container);
         container.appendChild(document.createTextNode('Villa kom upp'));
@@ -70,21 +82,10 @@
       request.send();
     }
 
-    function show(data) {
-      const container = document.querySelector('div');
-
-      empty(container);
-
-      const ul = document.createElement('ul');
-      console.log(data);
-      for (let item of data) {
-        const li = document.createElement('li');
-        li.appendChild(document.createTextNode(item.eventDateName));
-        ul.appendChild(li);
-      }
-
-      container.appendChild(ul);
-    }
+    document.addEventListener('DOMContentLoaded', () => {
+      const button = document.querySelector('button');
+      button.addEventListener('click', fetchData);
+    });
     </script>
   </body>
 </html>

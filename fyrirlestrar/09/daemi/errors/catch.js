@@ -4,8 +4,7 @@ function iThrowErrors() {
 
 try {
   iThrowErrors();
-}
-catch (e) {
+} catch (e) {
   console.log('Greip villu!', e);
 }
 console.log('Ég keyri!');

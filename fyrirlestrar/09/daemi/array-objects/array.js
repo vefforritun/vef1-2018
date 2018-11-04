@@ -10,7 +10,7 @@ console.log(list.length); // 101
 // list = ''; // TypeError
 
 const a = 'hello world';
-a.length; // 11
+console.log(a.length); // 11
 console.log(a['length']); // 11
 console.log(a['1%-foo']); // undefined
 

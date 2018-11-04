@@ -1,9 +1,8 @@
-function futureMessage (msg) {
+function futureMessage(msg) {
   return new Promise((resolve, reject) => {
-    if (msg === 'foo') reject('No foo allowed!');
+    if (msg === 'foo') reject(new Error('No foo allowed!'));
 
-    setTimeout(() =>
-      resolve(`${msg} from the future!`), 2000);
+    setTimeout(() => resolve(`${msg} from the future!`), 2000);
   });
 }
 

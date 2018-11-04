@@ -17,14 +17,13 @@
     input.setAttribute('value', 'foo');
     document.body.appendChild(input);
 
-    function inputValue(input) {
-      console.log('input.getAttribute(\'value\') = ', input.getAttribute('value'));
-      console.log('input.value :', input.value);
-      input.value; // "foobar"
+    function inputValue(i) {
+      console.log('input.getAttribute(\'value\') = ', i.getAttribute('value'));
+      console.log('input.value :', i.value);
+      console.log(i.value); // "foobar"
     }
 
     inputValue(input);
-
     </script>
   </body>
 </html>

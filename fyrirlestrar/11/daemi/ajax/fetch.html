@@ -11,16 +11,16 @@
 
     const request = new Request(url, { method: 'GET' });
     fetch(request)
-      .then(function(response) {
+      .then((response) => {
         if (response.status === 200) {
           return response.json();
         }
         throw new Error('Something went wrong on api server!');
       })
-      .then(function(response) {
+      .then((response) => {
         console.log(response);
       })
-      .catch(function(error) {
+      .catch((error) => {
         console.error(error);
       });
     </script>

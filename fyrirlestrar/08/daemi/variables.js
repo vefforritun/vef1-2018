@@ -6,7 +6,7 @@ console.log(typeof foo); // undefined
 // og forritið okkar myndi hætta keyrslu
 // let foo = 'bar';
 
-let foo2 = 'bar';
+const foo2 = 'bar';
 
 // breytur í JavaScript eru dýnamískar
 let a = 'halló heimur';
@@ -34,7 +34,7 @@ const FOO = 1;
 // getum nefnt breytur með $, _ og íslenskum stöfum
 // en megum ekki byrja á tölustaf
 
-let jó$$$ = '😎';
+const jó$$$ = '😎';
 
 // ef við myndum keyra línur að neðan myndum við fá SyntaxError
 // og forritið okkar myndi hætta keyrslu

@@ -158,3 +158,26 @@ Allir fyrirlestrar eru skrifaðir í Markdown. Til að útbúa fyrirlestra er [r
 npm install
 npm run present
 ```
+
+## Linting
+
+Til að keyra linting á markdown:
+
+```bash
+npm run markdownlint
+```
+
+JavaScript kóða í `.js`, `.html` og `.md` skrám:
+
+```bash
+npm run eslint-js
+npm run eslint-markdown
+npm run eslint-html
+npm run eslint # keyrir allt að ofan
+```
+
+Allt saman keyrir með:
+
+```bash
+npm test
+```

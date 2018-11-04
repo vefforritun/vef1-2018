@@ -1,14 +1,13 @@
 function iThrowErrorsSometimes() {
   if (Math.random() > 0.5) {
-    throw ('Villa!');
+    throw new Error('Villa!');
   }
 }
 
 try {
   iThrowErrorsSometimes();
-}
-catch (e) {
+} catch (e) {
   console.log('Greip villu!', e);
 } finally {
-  console.log('Ég keyri alltaf')
+  console.log('Ég keyri alltaf');
 }

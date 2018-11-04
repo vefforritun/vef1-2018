@@ -1,7 +1,7 @@
-var API_URL = 'http://apis.is/car?number=';
+const API_URL = 'http://apis.is/car?number=';
 
 document.addEventListener('DOMContentLoaded', function () {
-  var cars = document.querySelector('.cars');
+  const cars = document.querySelector('.cars');
 
   program.init(cars);
 });
@@ -11,8 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
  */
 const program = (() => {
 
+  function init() {
+    console.log(API_URL); /* eslint-disable-line */
+  }
 
   return {
-    init
+    init,
   }
 })();

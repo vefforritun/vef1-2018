@@ -4,4 +4,4 @@ setTimeout(() => {
 
 setInterval(() => {
   console.log('Halló á 2 sek fresti');
-}, 2000)
+}, 2000);

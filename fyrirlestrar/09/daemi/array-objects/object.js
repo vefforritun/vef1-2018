@@ -7,8 +7,12 @@ const person = {
   registered: true,
 
   // trailing comma
-  interests: ['foo', 'bar', 'baz', ],
-}
+  interests: [
+    'foo',
+    'bar',
+    'baz',
+  ],
+};
 
 
 const a = {};

@@ -30,25 +30,20 @@
     <div class="border"></div>
 
     <script>
-    const div = document.querySelector('div');
-    const borderDiv = document.querySelector('div.border');
-
-    console.log('Div með box-sizing: content-box;')
-    sizes(div);
-    console.log('Div með box-sizing: border-box;')
-    sizes(borderDiv);
-    console.log('Skroll:');
-    scroll(window);
-
     function sizes(div) {
-      const { offsetHeight, offsetWidth, clientHeight, clientWidth } = div;
+      const {
+        offsetHeight, offsetWidth, clientHeight, clientWidth,
+      } = div;
 
       console.log(`Offset: ${offsetWidth}×${offsetHeight}`);
       console.log(`Client: ${clientWidth}×${clientHeight}`);
 
-      const { top, right, bottom, left } = div.getBoundingClientRect();
+      const {
+        top, right, bottom, left,
+      } = div.getBoundingClientRect();
 
-      console.log(`Bounding rect, top=${top}, right=${right}, bottom=${bottom}, left=${left}`)
+      console.log('Bounding rect');
+      console.log(`top=${top}, right=${right}, bottom=${bottom}, left=${left}`);
     }
 
     function scroll(window) {
@@ -57,6 +52,15 @@
       console.log(`Scroll, x=${pageXOffset}, y=${pageYOffset}`);
     }
 
+    const div = document.querySelector('div');
+    const borderDiv = document.querySelector('div.border');
+
+    console.log('Div með box-sizing: content-box;');
+    sizes(div);
+    console.log('Div með box-sizing: border-box;');
+    sizes(borderDiv);
+    console.log('Skroll:');
+    scroll(window);
     </script>
   </body>
 </html>

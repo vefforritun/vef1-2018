@@ -4,11 +4,11 @@ function makeAdder(x) {
 }
 
 function outer(a) {
-  let x = 1;
+  const x = 1;
   function inner(b) {
-    let y = 2;
+    const y = 2;
     function innerinner(c) {
-      let z = 3;
+      const z = 3;
       return x + y + z + c;
     }
     return innerinner(b);

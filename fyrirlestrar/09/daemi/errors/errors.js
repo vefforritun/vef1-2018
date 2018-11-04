@@ -3,15 +3,14 @@ function getResult() {
     return null;
   }
 
-  return {s: 'hello'};
+  return { s: 'hello' };
 }
 
 const result = getResult();
 try {
   const string = result.s;
   console.log(s.substr(1));
-}
-catch (e) {
+} catch (e) {
   console.log('Greip villu');
 
   if (e instanceof TypeError) {

@@ -14,8 +14,8 @@ console.log(add(1)); // 1
 console.log(add(1, 2)); // 3
 
 function avg() {
-  var sum = 0;
-  for (var i = 0; i < arguments.length; i++) {
+  let sum = 0;
+  for (let i = 0; i < arguments.length; i++) {
     sum += arguments[i];
   }
   return sum / arguments.length;

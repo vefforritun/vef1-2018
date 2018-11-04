@@ -25,12 +25,11 @@
     const onceButton = document.querySelector('.once');
 
     // Þurfum að hafa vísun í fallið til að geta fjarlægt það
-    function once () {
+    function once() {
       console.log('Þetta keyrir einu sinni.');
       onceButton.removeEventListener('click', once);
     }
     onceButton.addEventListener('click', once);
-
     </script>
   </body>
 </html>

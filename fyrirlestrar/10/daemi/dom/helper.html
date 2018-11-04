@@ -7,17 +7,17 @@
   <body>
     <script>
     function el(name, ...children) {
-      const el = document.createElement(name);
+      const element = document.createElement(name);
 
-      for (let child of children) {
+      for (const child of children) {
         if (typeof child === 'string') {
-          el.appendChild(document.createTextNode(child));
+          element.appendChild(document.createTextNode(child));
         } else {
-          el.appendChild(child)
+          element.appendChild(child);
         }
       }
 
-      return el;
+      return element;
     }
 
     document.body.append(
@@ -27,8 +27,8 @@
           el('li', 'einn'),
           el('li', 'tveir'),
           el('li', 'þrír'),
-        )
-      )
+        ),
+      ),
     );
     </script>
   </body>

@@ -102,9 +102,9 @@ function calculateAverage() {
   const played = GAMES.length;
 
   let sum = 0;
-  for (let game of GAMES) {
+  for (const game of GAMES) {
     sum += game;
-  }˚
+  }
 
   const average = sum / played;
 
@@ -118,7 +118,7 @@ function calculateAverage() {
 function parseGuess(input) {
   const parsed = parseInt(input, 10);
 
-  if (isNaN(parsed)) {
+  if (Number.isNaN(parsed)) {
     return null;
   }
 
@@ -149,11 +149,13 @@ function getResponse(guess, correct) {
 
   if (diff < 5) {
     return 'Mjög nálægt';
-  } else if (diff < 10) {
-    return 'Nálægt';
-  } else {
-    return 'Mjög langt frá';
   }
+
+  if (diff < 10) {
+    return 'Nálægt';
+  }
+
+  return 'Mjög langt frá';
 }
 
 /**

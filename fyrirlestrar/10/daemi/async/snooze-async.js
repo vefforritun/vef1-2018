@@ -1,7 +1,7 @@
 function snooze(s, msg) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(msg)
+      resolve(msg);
     }, s * 1000);
   });
 }

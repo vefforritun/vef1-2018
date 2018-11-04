@@ -8,12 +8,12 @@
     <textarea cols="40" rows="10"></textarea>
 
     <script>
-    const textarea = document.querySelector("textarea");
+    const textarea = document.querySelector('textarea');
     let timeout;
-    textarea.addEventListener("keydown", () => {
+    textarea.addEventListener('keydown', () => {
       clearTimeout(timeout);
       timeout = setTimeout(() => {
-        console.log("You stopped typing.");
+        console.log('You stopped typing.');
       }, 500);
     });
     </script>

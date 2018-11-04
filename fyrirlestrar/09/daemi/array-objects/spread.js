@@ -1,9 +1,9 @@
 function avg(...rest) {
-  let sum = 0;
-  for (let i of rest) {
-    sum += i;
+  let total = 0;
+  for (const i of rest) {
+    total += i;
   }
-  return sum / rest.length;
+  return total / rest.length;
 }
 
 const list = [1, 2, 3];
@@ -29,4 +29,3 @@ console.log([1, ...list, 10]); // [1, 1, 2, 3, 10]
 
 // afritum fylki
 console.log([...list]); // [1, 2, 3]
-

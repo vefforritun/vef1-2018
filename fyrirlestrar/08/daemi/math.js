@@ -23,7 +23,8 @@ console.log(Number.isInteger(1.5)); // false
 
 console.log(Number.MAX_VALUE); // einhver mjög há tala
 
-// Þar sem við höfum ekki fullkomna nákvæmni í brotum er 0.1 + 0.2 ekki jafnt 0.3
+// Þar sem við höfum ekki fullkomna nákvæmni í brotum er
+// 0.1 + 0.2 ekki jafnt 0.3
 console.log(0.1 + 0.2 === 0.3); // false
 
 // Þurfum að bera saman við "epsilon" gildi

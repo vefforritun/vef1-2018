@@ -1,1 +1,19 @@
 node_modules/
+_static/**/*.*
+templates/**/*.*
+
+# Skrár sem eru viljandi með villum
+/fyrirlestrar/08/daemi/comments.js
+/fyrirlestrar/08/daemi/functions/hoisting.js
+/fyrirlestrar/08/daemi/functions/global.js
+/fyrirlestrar/08/daemi/functions/scope.js
+
+/fyrirlestrar/09/daemi/modules/no-modules.js
+/fyrirlestrar/09/daemi/errors/errors.js
+/fyrirlestrar/09/daemi/errors/strict.js
+
+/fyrirlestrar/11/daemi/eslint/test.js
+/fyrirlestrar/11/daemi/eslint/lib/index.js
+
+/fyrirlestrar/12/**/*.*
+/fyrirlestrar/13/**/*.*

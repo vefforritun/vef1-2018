@@ -1,9 +1,9 @@
 
 console.log(isNaN(1)); // false
 
-console.log(isNaN('a')) // true
+console.log(isNaN('a')); // true
 
-console.log(isNaN('1')) ;// false
+console.log(isNaN('1'));// false
 
 console.log(isFinite(1)); // true
 

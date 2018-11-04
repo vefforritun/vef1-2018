@@ -1,6 +1,6 @@
-let hi = function(name) {
+let hi = function (name) {
   return `hello, ${name}`;
-}
+};
 
 console.log(hi('world'));
 // 'hello, world!'
