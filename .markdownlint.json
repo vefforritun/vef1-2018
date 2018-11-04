@@ -2,6 +2,9 @@
   "default": true,
   "MD004": { "style": "sublist" },
   "MD013": false,
+  "MD033": {
+    "allowed_elements": [ "ol", "li", "div", "dl", "dd", "dt", "table", "tr", "th", "thead", "tbody", "td", "tfoot", "strong", "input", "form", "label", "fieldset", "legend", "b", "br", "h2", "p", "font", "marquee", "iframe", "button" ]
+  },
   "MD035": false,
   "no-hard-tabs": false,
   "no-bare-urls": false,
