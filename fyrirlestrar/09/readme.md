@@ -2,7 +2,7 @@
 
 [Fyrirlestur 9.1: Array og objects](09.1.array.objects.md), [vídeó](https://youtu.be/RMiKD3vYKD0)
 
-[Fyrirlestur 9.2: Villur og regex](09.2.error.regex.md), [vídeó](https://youtu.be/ct_bP2hN5Qk)
+[Fyrirlestur 9.2: Villur og regex](09.2.errors.regex.md), [vídeó](https://youtu.be/ct_bP2hN5Qk)
 
 [Fyrirlestur 9.3: Einingar](09.3.modules.md), [vídeó](https://youtu.be/XSf3uv4FjD8)
 
