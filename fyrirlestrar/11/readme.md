@@ -1,10 +1,12 @@
 # Fyrirlestur 11, 5. nóvember 2018
 
-[Fyrirlestur 11.1: Ósamstillt forritun](11.1.async.md), [vídeó](https://youtu.be/kdlmV7rg-I8)
+[Fyrirlestur 11.1: HTTP](11.1.http.md), [vídeó](https://youtu.be/iWGHMlvdUlc)
 
-[Fyrirlestur 11.2: DOM & vafrinn](11.2.browser-dom.md), [vídeó](https://youtu.be/wVCUH4vvVTc)
+[Fyrirlestur 11.2: Ajax](11.2.browser-dom.md), [vídeó](https://youtu.be/F_yMkbA6A2M)
 
-[Fyrirlestur 11.3: Atburðir](11.3.events.md), [vídeó](https://youtu.be/zfaBXdCZBFs)
+[Fyrirlestur 11.3: Unobtrusive og eslint](11.3.events.md), [vídeó](https://youtu.be/oi9-1pcoslM)
+
+[Fyrirlestur 11.4: Sýnidæmi](11.4.daemi.md), [vídeó](https://youtu.be/3FrbQcf1T3s)
 
 ## Dæmi
 

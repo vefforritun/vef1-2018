@@ -23,9 +23,9 @@ Sjá Uglu.
 |  9   | 22. október   | Fylki&hlutir. Villumeðhöndlun, reglulegar segðir, einingar  | JS #1                | Hópverkefni 1 |
 |  10  | 29. október   | Forritun á vef, DOM og atburðir, ósamstillt forritun        | JS #2                | JS #1         |
 |  11  | 5. nóvember   | HTTP og form, Ajax, eslint, unobtrusive JavaScript          | JS #3, Hópverkefni 2 | JS #2         |
-|  12  | 12. nóvember  | Hlutir, prótótýpur, HTML5 og JavaScript                     | JS #4                | JS #3         |
-|  13  | 19. nóvember  | Fallaforritun, tæki og tól, pökkun á kóða                   |                      | JS #4         |
-|  14  | 26. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf             |                      | Hópverkefni 2 |
+|  12  | 12. nóvember  | Hlutir, fallaforritun, HTML5 og JS, tæki og tól             | JS #4                | JS #3         |
+|  13  | 19. nóvember  | Samantekt og upprifjun, upplýsingar um lokapróf             |                      | JS #4         |
+|  14  | 26. nóvember  |                                                             |                      | Hópverkefni 2 |
 
 ## Lesefni
 
@@ -135,6 +135,7 @@ Sjá Uglu.
 * [Verkefni 8](https://github.com/vefforritun/vef1-2018-v8), sett fyrir 29. október, skilist 6. nóvember
   - [Kynning í fyrirlestri](https://youtu.be/3ssROhnC2AI)
 * [Verkefni 9](https://github.com/vefforritun/vef1-2018-v9), sett fyrir 5. nóvember, skilist 13. nóvember
+  - - [Kynning í fyrirlestri](https://youtu.be/aAk4d1A2eVU)
 * Verkefni 10, sett fyrir 12. nóvember, skilist 20. nóvember
 
 ## Hópverkefni
@@ -142,7 +143,7 @@ Sjá Uglu.
 * [Hópverkefni 1](https://github.com/vefforritun/vef1-2018-h1), sett fyrir 8. október, skilist 26. október
   - [Kynning í fyrirlestri](https://youtu.be/B66h9ZPTtMs)
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-h1-synilausn)
-* [Hópverkefni 2](https://github.com/vefforritun/vef1-2018-h2), sett fyrir 5. nóvember, skilist 27. nóvember
+* [Hópverkefni 2](https://github.com/vefforritun/vef1-2018-h2), sett fyrir 8. nóvember, skilist 27. nóvember
 
 ## Lokapróf
 
