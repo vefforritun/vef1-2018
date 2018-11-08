@@ -76,9 +76,8 @@ Sjá Uglu.
   - [Resilient Web Design, chapter 6: Steps](https://resilientwebdesign.com/chapter6/)
 * Vika #12
   - [Eloquent JavaScript, kafli 6: The Secret Life of Objects](https://eloquentjavascript.net/06_object.html)
-  - [Resilient Web Design, chapter 7: Challenges](https://resilientwebdesign.com/chapter7/)
-* Vika #13
   - [Eloquent JavaScript, kafli 5: Higher-order Functions](https://eloquentjavascript.net/05_higher_order.html)
+  - [Resilient Web Design, chapter 7: Challenges](https://resilientwebdesign.com/chapter7/)
 
 ## Fyrirlestrar
 
@@ -104,11 +103,9 @@ Sjá Uglu.
   - Forritun á vef, DOM og atburðir, ósamstillt forritun
 * [Fyrirlestur 11, 5. nóvember 2018](fyrirlestrar/11/)
   - HTTP og form, Ajax, eslint, unobtrusive JavaScript
-* Fyrirlestur 12, 12. nóvember 2018
-  - Hlutir, prótótýpur, HTML5 og JavaScript
+* [Fyrirlestur 12, 12. nóvember 2018](fyrirlestrar/12/)
+  - Hlutir, fallaforritun, HTML5 og JS, tæki og tól
 * Fyrirlestur 13, 19. nóvember 2018
-  - Fallaforritun, tæki og tól, pökkun á kóða
-* Fyrirlestur 14, 26. nóvember 2018
   - Samantekt og upprifjun, upplýsingar um lokapróf
 
 ## Verkefni
