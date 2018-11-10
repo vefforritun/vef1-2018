@@ -2,9 +2,9 @@
 
 [Fyrirlestur 11.1: HTTP](11.1.http.md), [vídeó](https://youtu.be/iWGHMlvdUlc)
 
-[Fyrirlestur 11.2: Ajax](11.2.browser-dom.md), [vídeó](https://youtu.be/F_yMkbA6A2M)
+[Fyrirlestur 11.2: Ajax](11.2.ajax.md), [vídeó](https://youtu.be/F_yMkbA6A2M)
 
-[Fyrirlestur 11.3: Unobtrusive og eslint](11.3.events.md), [vídeó](https://youtu.be/oi9-1pcoslM)
+[Fyrirlestur 11.3: Unobtrusive og eslint](11.3.eslint.md), [vídeó](https://youtu.be/oi9-1pcoslM)
 
 [Fyrirlestur 11.4: Sýnidæmi](11.4.daemi.md), [vídeó](https://youtu.be/3FrbQcf1T3s)
 
