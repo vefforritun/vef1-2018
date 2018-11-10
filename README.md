@@ -142,6 +142,7 @@ Sjá Uglu.
   - [Kynning í fyrirlestri](https://youtu.be/B66h9ZPTtMs)
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-h1-synilausn)
 * [Hópverkefni 2](https://github.com/vefforritun/vef1-2018-h2), sett fyrir 9. nóvember, skilist 29. nóvember
+  - [Kynning í fyrirlestri](https://youtu.be/TmoeISMJO6c)
 
 ## Lokapróf
 
