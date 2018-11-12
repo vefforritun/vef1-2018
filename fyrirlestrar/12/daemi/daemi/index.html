@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="grid" lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Verkefni 10</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+  </head>
+  <body>
+    <h1>Niðurteljari</h1>
+    <main>
+      <form class="form">
+        <div class="form__field">
+          <label class="form__label" for="title">Heiti</label>
+          <input class="form__input" id="title" type="text" required>
+        </div>
+        <div class="form__field">
+          <label class="form__label" for="date">Dagsetning</label>
+          <input class="form__input" id="date" type="date" required>
+        </div>
+        <div class="form__field">
+          <label class="form__label" for="time">Tími</label>
+          <input class="form__input" id="time" type="time" required>
+        </div>
+        <button class="button">Búa til</button>
+      </form>
+      <div class="countdown">
+      </div>
+    </main>
+
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>

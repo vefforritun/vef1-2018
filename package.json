@@ -9,7 +9,7 @@
     "eslint-markdown": "eslint --ext md .",
     "eslint-html": "eslint --ext html .",
     "eslint": "npm run eslint-js -s && npm run eslint-markdown -s && npm run eslint-html -s",
-    "markdownlint": "markdownlint fyrirlestrar/**/*.md -i fyrirlestrar/13/**/*.md -i fyrirlestrar/12/**/*.md",
+    "markdownlint": "markdownlint fyrirlestrar/**/*.md",
     "test": "npm run eslint -s && npm run markdownlint -s"
   },
   "keywords": [],

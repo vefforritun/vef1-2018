@@ -2,6 +2,9 @@ node_modules/
 _static/**/*.*
 templates/**/*.*
 
+**/dist/**/*.*
+**/bundle.js
+
 # Skrár sem eru viljandi með villum
 /fyrirlestrar/08/daemi/comments.js
 /fyrirlestrar/08/daemi/functions/hoisting.js
@@ -14,6 +17,3 @@ templates/**/*.*
 
 /fyrirlestrar/11/daemi/eslint/test.js
 /fyrirlestrar/11/daemi/eslint/lib/index.js
-
-/fyrirlestrar/12/**/*.*
-/fyrirlestrar/13/**/*.*

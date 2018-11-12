@@ -18,7 +18,7 @@ const program = (() => {
       return;
     }
 
-    const [{ factoryNumber, color }] = carsList;
+    const [{ factoryNumber }] = carsList;
 
     const dl = document.createElement('dl');
 

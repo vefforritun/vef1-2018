@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>workers</title>
+  </head>
+  <body>
+    <button class="sans">Reikna fibonacci runu án worker</button>
+    <button class="worker">Reikna fibonacci runu með worker</button>
+
+    <p>Niðurstaða:</p>
+    <p class="result"></p>
+
+    <script>
+
+    function fibo(n) {
+      if (n < 2) return 1;
+
+      return fibo(n - 2) + fibo(n - 1);
+    }
+
+    const sansButton = document.querySelector('button.sans');
+    const workerButton = document.querySelector('button.worker');
+    const p = document.querySelector('.result');
+
+    sansButton.addEventListener('click', () => {
+      const results = [];
+      for (let i = 0; i < 40; i++) {
+        results.push(fibo(i));
+      }
+      p.textContent = results.join(', ');
+    });
+
+    const worker = new Worker('fibo.js');
+    workerButton.addEventListener('click', () => {
+      worker.postMessage(40);
+      worker.onmessage = (event) => {
+        p.textContent = `Frá worker: ${event.data}`;
+      };
+    });
+    </script>
+  </body>
+</html>

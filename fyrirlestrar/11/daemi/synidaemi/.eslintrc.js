@@ -7,5 +7,6 @@ module.exports = {
     indent: ['error', 2],
     curly: ['error', 'multi-line'],
     'brace-style': ['error'],
+    'no-console': 0,
   }
 };

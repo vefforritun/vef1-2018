@@ -1,0 +1,35 @@
+.countdown {
+  &__heading {
+    margin-bottom: 20px;
+  }
+
+  &__container {
+    display: flex;
+
+    margin-bottom: 20px;
+  }
+
+  &__box {
+    display: flex;
+
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+
+    flex-direction: column;
+
+    background-color: #eee;
+    border: 1px solid #999;
+  }
+
+  &__num {
+    margin: auto;
+
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  &__title {
+    margin: auto;
+  }
+}

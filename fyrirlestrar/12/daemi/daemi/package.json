@@ -1,0 +1,34 @@
+{
+  "name": "daemi",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "eslint": "eslint ./src/**/*.js",
+    "rollup": "rollup -c",
+    "rollup-watch": "rollup -c -w",
+    "browser-sync": "browser-sync start --server --files index.html ./dist/styles.css ./dist/bundle.js",
+    "stylelint": "stylelint ./src/styles/**/*.scss --syntax scss",
+    "sass": "node-sass --source-map-embed ./src/styles/styles.scss ./dist/styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch --recursive src/styles/styles.scss ./dist/styles.css",
+    "test": "npm-run-all eslint stylelint",
+    "dev": "npm-run-all --parallel sass sass-watch rollup-watch browser-sync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "browser-sync": "^2.26.3",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "node-sass": "^4.10.0",
+    "npm-run-all": "^4.1.3",
+    "rollup": "^0.67.1",
+    "rollup-plugin-babel": "^4.0.3",
+    "stylelint": "^9.8.0",
+    "stylelint-config-primer": "^2.2.11"
+  }
+}

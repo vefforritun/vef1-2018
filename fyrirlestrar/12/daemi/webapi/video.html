@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Video</title>
+  </head>
+
+  <body>
+    <video src="small.mp4"></video>
+    <button>Play</button>
+    <script>
+    const video = document.querySelector('video');
+    const button = document.querySelector('button');
+    button.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+        button.removeChild(button.firstChild);
+        button.appendChild(document.createTextNode('Pause'));
+      } else {
+        video.pause();
+        button.removeChild(button.firstChild);
+        button.appendChild(document.createTextNode('Play'));
+      }
+    });
+    </script>
+  </body>
+</html>

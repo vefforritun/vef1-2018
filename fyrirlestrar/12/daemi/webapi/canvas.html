@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>canvas</title>
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <script>
+    const canvas = document.querySelector('canvas');
+    const context = canvas.getContext('2d');
+    context.fillStyle = 'red';
+    context.fillRect(0, 0, 100, 100);
+    context.fillStyle = 'blue';
+    context.fillRect(30, 30, 50, 50);
+    </script>
+  </body>
+</html>

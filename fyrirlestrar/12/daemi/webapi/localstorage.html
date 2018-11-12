@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>localStorage</title>
+  </head>
+
+  <body>
+    <div></div>
+    <script>
+    const saved = window.localStorage.getItem('data');
+    const div = document.querySelector('div');
+
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      console.log('Vistuð gögn:', parsed);
+      div.textContent = `Vistað: ${saved}`;
+      window.localStorage.removeItem('data');
+    } else {
+      const data = { hello: 'world' };
+      console.log('Ekkert vistað, vista:', data);
+      div.textContent = 'Ekkert vistað';
+      const json = JSON.stringify(data);
+      window.localStorage.setItem('data', json);
+    }
+    </script>
+  </body>
+</html>

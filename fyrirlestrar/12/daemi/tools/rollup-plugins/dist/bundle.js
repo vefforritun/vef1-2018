@@ -1,0 +1,2 @@
+!function(){"use strict";function t(n,e){for(var o=0;o<e.length;o++){var r=e[o];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(n,r.key,r)}}var n=function(){function n(){!function(n,e){if(!(n instanceof e))throw new TypeError("Cannot call a class as a function")}(this,n),this.foo=1}var e,o,r;return e=n,(o=[{key:"bar",value:function(){return this.foo}}])&&t(e.prototype,o),r&&t(e,r),n}(),e=[1,2,3,4].map(function(n){return 2*n});console.log(e);var o=new n;console.log(o.bar())}();
+//# sourceMappingURL=bundle.js.map

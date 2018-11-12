@@ -1,0 +1,32 @@
+
+html { /* stylelint-disable-line */
+  box-sizing: border-box;
+}
+
+*, *:before, *:after { /* stylelint-disable-line */
+  box-sizing: inherit;
+
+  padding: 0;
+  margin: 0;
+}
+
+html { /* stylelint-disable-line */
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+main { /* stylelint-disable-line */
+  display: flex;
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 { /* stylelint-disable-line */
+  text-align: center;
+}
+
+@import "scss/form";
+@import "scss/countdown";
+@import "scss/button";
