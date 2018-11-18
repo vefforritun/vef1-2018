@@ -150,6 +150,7 @@ Sjá Uglu.
 
 Lokapróf verður haldið miðvikudaginn 5. desember frá kl. 09:00–12:00. Lokapróf frá 2017 má nálgast á Uglu.
 
+[Atriði til grundvallar lokaprófi](lokaprof.md).
 ---
 
 ## Útbúa fyrirlestra
