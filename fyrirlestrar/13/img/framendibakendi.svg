@@ -1,0 +1,42 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 504.6 150">
+  <style>
+    .st0{fill-opacity:0;} .st1{fill:#FFFFFF;} .st2{fill:none;} .st3{fill:none;stroke:#333333;stroke-width:2;stroke-miterlimit:10;} .st4{font-family:&apos;Helvetica-Bold&apos;, Arial, sans-serif;} .st5{font-size:24px;} .st6{font-size:18px;}
+  </style>
+  <path class="st0" d="M0 0h504.6v150H0z"/>
+  <path class="st1" d="M10 10h170v120H10V10z"/>
+  <path class="st2" d="M10 10h170v120H10V10z"/>
+  <path class="st3" d="M10 10h170v120H10V10z"/>
+  <path class="st0" d="M21 40h148v20H21z"/>
+  <path class="st0" d="M54.5 38h82v24h-82z"/>
+  <path class="st0" d="M54.5 38h82v24h-82z"/>
+  <text transform="translate(38.72 75)" class="st4 st5">
+    BAKENDI
+  </text>
+  <g>
+    <path class="st1" d="M180 70l35-35v21h60V35l35 35-35 35V84h-60v21l-35-35z"/>
+    <path class="st3" d="M180 70l35-35v21h60V35l35 35-35 35V84h-60v21l-35-35z"/>
+  </g>
+  <g>
+    <path class="st0" d="M191 60h110v20H191z"/>
+    <path class="st0" d="M191 60h110v20H191z"/>
+    <path class="st0" d="M222 58h49v24h-49z"/>
+    <path class="st0" d="M222 58h49v24h-49z"/>
+    <text transform="translate(221.984 77)" class="st4 st6">
+      HTTP
+    </text>
+  </g>
+  <g>
+    <path class="st1" d="M310 10h170v120H310V10z"/>
+    <path class="st2" d="M310 10h170v120H310V10z"/>
+    <path class="st3" d="M310 10h170v120H310V10z"/>
+  </g>
+  <g>
+    <path class="st0" d="M321 40h148v60H321z"/>
+    <path class="st0" d="M321 40h148v20H321z"/>
+    <path class="st0" d="M346.7 38h98v24h-98z"/>
+    <path class="st0" d="M346.7 38h98v24h-98z"/>
+  </g>
+  <text transform="translate(337.037 77)" class="st4 st5">
+    FRAMENDI
+  </text>
+</svg>

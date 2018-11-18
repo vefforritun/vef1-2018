@@ -105,7 +105,7 @@ Sjá Uglu.
   - HTTP og form, Ajax, eslint, unobtrusive JavaScript
 * [Fyrirlestur 12, 12. nóvember 2018](fyrirlestrar/12/)
   - Hlutir, fallaforritun, HTML5 og JS, tæki og tól
-* Fyrirlestur 13, 19. nóvember 2018
+* [Fyrirlestur 13, 19. nóvember 2018](fyrirlestrar/13/)
   - Samantekt og upprifjun, upplýsingar um lokapróf
 
 ## Verkefni
@@ -151,6 +151,9 @@ Sjá Uglu.
 Lokapróf verður haldið miðvikudaginn 5. desember frá kl. 09:00–12:00. Lokapróf frá 2017 má nálgast á Uglu.
 
 [Atriði til grundvallar lokaprófi](lokaprof.md).
+
+[Upprifjun og yfirferð á gömlu prófi í fyrirlestri 13](fyrirlestrar/13/)
+
 ---
 
 ## Útbúa fyrirlestra
