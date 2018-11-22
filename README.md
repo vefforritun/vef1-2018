@@ -137,6 +137,7 @@ Sjá Uglu.
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v9-synilausn)
 * [Verkefni 10](https://github.com/vefforritun/vef1-2018-v10), sett fyrir 12. nóvember, skilist 20. nóvember
   - [Kynning í fyrirlestri](https://youtu.be/Tt4jZRZc8jQ)
+  - [Sýnilausn](https://github.com/vefforritun/vef1-2018-v10-synilausn)
 
 ## Hópverkefni
 
