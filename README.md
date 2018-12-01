@@ -4,34 +4,6 @@ Hér má nálgast alla fyrirlestra, dæmi og verkefni í áfangagnum vefforritun
 
 [Upptökur af fyrirlestrum eru á YouTube](https://www.youtube.com/playlist?list=PLRj-ccg8iozyaJR-ASWDk5wTLJ0BOosqb).
 
-## Öryggisvilla í verkefnum
-
-Upp kom öryggisgalli í pakka sem mikið er notaður á NPM þar sem óprúttinn aðili kom inn kóða sem reynir að ræna upplýsingum um crypto veski. Sjá nánar:
-
-* ["I don't know what to say."](https://github.com/dominictarr/event-stream/issues/116)
-* ["An NPM package with 2,000,000 weekly downloads had malicious code injected into it. No one knows what the malicious code does yet."](https://twitter.com/garybernhardt/status/1067111872225136640)
-
-Til að losna við þarf að fjarlægja `npm-run-all` pakka og nota `concurrently` í staðinn:
-
-```bash
-npm uninstall npm-run-all
-npm install concurrently --save-dev
-```
-
-Síðan þarf að breyta `package.json` scriptum sem nota `npm-run-all` úr, t.d.:
-
-```json
-"dev": "npm-run-all --parallel sass sass-watch browser-sync"
-```
-
-í (setja þarf `npm:` fyrir framan npm skipanir):
-
-```json
-"dev": "concurrently npm:sass npm:sass-watch npm:browser-sync"
-```
-
-[Sjá breytingu á sýnilausn fyrir h1](https://github.com/vefforritun/vef1-2018-h1-synilausn/commit/71644dbe9ca2556660b53a6c876b9384e2a4c796).
-
 ## Dæmatímar
 
 Sjá Uglu.
@@ -174,6 +146,34 @@ Sjá Uglu.
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-h1-synilausn)
 * [Hópverkefni 2](https://github.com/vefforritun/vef1-2018-h2), sett fyrir 9. nóvember, skilist 29. nóvember
   - [Kynning í fyrirlestri](https://youtu.be/TmoeISMJO6c)
+
+## Öryggisvilla í verkefnum
+
+Upp kom öryggisgalli í pakka sem mikið er notaður á NPM þar sem óprúttinn aðili kom inn kóða sem reynir að ræna upplýsingum um crypto veski. Sjá nánar:
+
+* ["I don't know what to say."](https://github.com/dominictarr/event-stream/issues/116)
+* ["An NPM package with 2,000,000 weekly downloads had malicious code injected into it. No one knows what the malicious code does yet."](https://twitter.com/garybernhardt/status/1067111872225136640)
+
+Til að losna við þarf að fjarlægja `npm-run-all` pakka og nota `concurrently` í staðinn:
+
+```bash
+npm uninstall npm-run-all
+npm install concurrently --save-dev
+```
+
+Síðan þarf að breyta `package.json` scriptum sem nota `npm-run-all` úr, t.d.:
+
+```json
+"dev": "npm-run-all --parallel sass sass-watch browser-sync"
+```
+
+í (setja þarf `npm:` fyrir framan npm skipanir):
+
+```json
+"dev": "concurrently npm:sass npm:sass-watch npm:browser-sync"
+```
+
+[Sjá breytingu á sýnilausn fyrir h1](https://github.com/vefforritun/vef1-2018-h1-synilausn/commit/71644dbe9ca2556660b53a6c876b9384e2a4c796).
 
 ## Lokapróf
 
