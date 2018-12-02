@@ -146,6 +146,7 @@ Sjá Uglu.
   - [Sýnilausn](https://github.com/vefforritun/vef1-2018-h1-synilausn)
 * [Hópverkefni 2](https://github.com/vefforritun/vef1-2018-h2), sett fyrir 9. nóvember, skilist 29. nóvember
   - [Kynning í fyrirlestri](https://youtu.be/TmoeISMJO6c)
+  - [Sýnilausn](https://github.com/vefforritun/vef1-2018-h2-synilausn)
 
 ## Öryggisvilla í verkefnum
 
