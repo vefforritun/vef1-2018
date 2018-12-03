@@ -93,7 +93,7 @@
 * Hvað er cascade
   - Hvernig er komist að því hvaða skilgreiningar eiga við element
   - Hvernig er þeim raðað
-  - Hvernig hagar `!import` sér
+  - Hvernig hagar `!important` sér
   - Af hverju er ekki sniðugt að nota id selectora
 * Hvernig eru gildi reiknuð
   - Hvernig haga upphafsgildi sér
